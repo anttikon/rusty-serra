@@ -31,13 +31,13 @@ fn parse_data() {
 
 fn get_card_name_by_query(query_card_name: String) -> String {
     unsafe {
-        let mut highest_leven: Option<f64> = None;
+        let mut highest_leven: f64 = 0.0;
         let mut highest_leven_card_name: String = String::from("");
 
         for card_name in CARD_NAMES.iter() {
             let leven_score = normalized_levenshtein(card_name, query_card_name.as_str());
-            if highest_leven.is_none() || highest_leven.unwrap() < leven_score {
-                highest_leven = Option::from(leven_score);
+            if highest_leven < leven_score {
+                highest_leven = leven_score;
                 highest_leven_card_name = card_name.clone();
             }
         }
