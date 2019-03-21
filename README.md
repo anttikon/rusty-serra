@@ -1,4 +1,5 @@
+# Build:
+`cargo rustc --release`
+
 # Run dev:
-- Fetch data:
-`curl -o AllCards.json.zip https://mtgjson.com/json/AllCards.json.zip && unzip AllCards.json.zip`
-- Start server `cargo watch -x run`
+- Start server `cargo watch -i AllCards.json -i AllCards.json.zip -x run`
