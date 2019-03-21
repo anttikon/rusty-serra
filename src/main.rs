@@ -2,9 +2,14 @@
 #[macro_use]
 extern crate rocket;
 extern crate strsim;
+extern crate reqwest;
+extern crate zip;
+
+mod mtg_data;
 
 use std::fs::File;
 use std::io::Read;
+use std::path::Path;
 use std::collections::HashMap;
 use rocket::response::content;
 use rocket::http::RawStr;
@@ -46,6 +51,11 @@ fn get_card_name_by_query(query_card_name: String) -> String {
 }
 
 fn main() {
+    if Path::new("AllCards.json.zip").exists() == false {
+        mtg_data::download_file("https://mtgjson.com/json/AllCards.json.zip", "AllCards.json.zip");
+        mtg_data::unzip_file("AllCards.json.zip")
+    }
+
     println!("{} {}", "\u{1F4BE}", "Parsing data");
     parse_data();
     println!("{} {}", "\u{2728}", "Data parsed!");
