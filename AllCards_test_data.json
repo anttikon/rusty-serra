@@ -1,0 +1,3733 @@
+{
+  "Act of Authority": {
+    "colorIdentity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "convertedManaCost": 3.0,
+    "foreignData": [
+      {
+        "language": "German",
+        "name": "Kraft der Autorität",
+        "text": "Wenn die Kraft der Autorität ins Spiel kommt, kannst du ein Artefakt oder eine Verzauberung deiner Wahl ins Exil schicken.Zu Beginn deines Versorgungssegments kannst du ein Artefakt oder eine Verzauberung deiner Wahl ins Exil schicken. Falls du dies tust, übernimmt sein bzw. ihr Beherrscher die Kontrolle über die Kraft der Autorität.",
+        "type": "Verzauberung"
+      },
+      {
+        "language": "Spanish",
+        "name": "Acto de autoridad",
+        "text": "Cuando el Acto de autoridad entre al campo de batalla, puedes exiliar el encantamiento o artefacto objetivo.Al comienzo de tu mantenimiento, puedes exiliar el artefacto o encantamiento objetivo. Si lo haces, su controlador gana el control del Acto de autoridad.",
+        "type": "Encantamiento"
+      },
+      {
+        "language": "French",
+        "name": "Acte d'autorité",
+        "text": "Quand l'Acte d'autorité arrive sur le champ de bataille, vous pouvez exiler l'artefact ou l'enchantement ciblé.Au début de votre entretien, vous pouvez exiler l'artefact ou l'enchantement ciblé. Si vous faites ainsi, son contrôleur acquiert le contrôle de l'Acte d'autorité.",
+        "type": "Enchantement"
+      },
+      {
+        "language": "Italian",
+        "name": "Atto di Autorità",
+        "text": "Quando l'Atto di Autorità entra nel campo di battaglia, puoi esiliare un artefatto o un incantesimo bersaglio.All'inizio del tuo mantenimento, puoi esiliare un artefatto o un incantesimo bersaglio. Se lo fai, il suo controllore prende il controllo dell'Atto di Autorità.",
+        "type": "Incantesimo"
+      },
+      {
+        "language": "Japanese",
+        "name": "権威の行動",
+        "text": "権威の行動が戦場に出たとき、アーティファクト１つかエンチャント１つを対象とする。あなたはそれを追放してもよい。あなたのアップキープの開始時に、アーティファクト１つかエンチャント１つを対象とする。あなたはそれを追放してもよい。そうしたなら、それのコントローラーは権威の行動のコントロールを得る。",
+        "type": "エンチャント"
+      }
+    ],
+    "layout": "normal",
+    "legalities": {
+      "commander": "Legal",
+      "duel": "Legal",
+      "legacy": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{1}{W}{W}",
+    "name": "Act of Authority",
+    "printings": [
+      "C13"
+    ],
+    "rulings": [
+      {
+        "date": "2013-10-17",
+        "text": "For either ability, if you are the only player who controls an artifact or enchantment, you must choose one of them as the target. However, you may choose to not exile it when the ability resolves."
+      },
+      {
+        "date": "2013-10-17",
+        "text": "If you choose to not exile a permanent with the second ability, you’ll retain control of Act of Authority."
+      }
+    ],
+    "scryfallIllustrationId": "e45049af-be5e-4f99-919b-1ba1558ba724",
+    "scryfallOracleId": "c12b8e31-5702-4d3c-80c9-56c87e50679d",
+    "subtypes": [],
+    "supertypes": [],
+    "tcgplayerProductId": 71863,
+    "tcgplayerPurchaseUrl": "https://mtgjson.com/links/459ab3355d379376",
+    "text": "When Act of Authority enters the battlefield, you may exile target artifact or enchantment.\nAt the beginning of your upkeep, you may exile target artifact or enchantment. If you do, its controller gains control of Act of Authority.",
+    "type": "Enchantment",
+    "types": [
+      "Enchantment"
+    ],
+    "uuid": "319589e9-a2a9-590c-b8a8-463aafc4fd98",
+    "uuidV421": "3918b5d5-dbee-559d-9fcc-fc2611aa49e8"
+  },
+  "Act of Heroism": {
+    "colorIdentity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "convertedManaCost": 2.0,
+    "foreignData": [
+      {
+        "flavorText": "„Es gibt zwei Sorten von Menschen: solche, die vor Gefahren wegrennen, und solche, die auf sie zustürmen.\" —Gideon Jura",
+        "language": "German",
+        "name": "Heldentat",
+        "text": "Enttappe eine Kreatur deiner Wahl. Sie erhält +2/+2 bis zum Ende des Zuges und kann in diesem Zug eine zusätzliche Kreatur blocken.",
+        "type": "Spontanzauber"
+      },
+      {
+        "flavorText": "\"En todos los planos, hay quienes se arrojan al peligro\". —Gideon Jura",
+        "language": "Spanish",
+        "name": "Acto de heroísmo",
+        "text": "Endereza la criatura objetivo. Obtiene +2/+2 hasta el final del turno y puede bloquear a una criatura adicional este turno.",
+        "type": "Instantáneo"
+      },
+      {
+        "flavorText": "« Sur chaque plan, il y en a toujours qui vont au-devant du danger. » —Gideon Jura",
+        "language": "French",
+        "name": "Acte héroïque",
+        "text": "Dégagez la créature ciblée. Elle gagne +2/+2 jusqu'à la fin du tour et peut bloquer une créature supplémentaire ce tour-ci.",
+        "type": "Éphémère"
+      },
+      {
+        "flavorText": "\"Su ogni piano troverai sempre qualcuno che corre a capofitto verso il pericolo.\" —Gideon Jura",
+        "language": "Italian",
+        "name": "Atto di Eroismo",
+        "text": "STAPpa una creatura bersaglio. Prende +2/+2 fino alla fine del turno e può bloccare una creatura addizionale in questo turno.",
+        "type": "Istantaneo"
+      },
+      {
+        "flavorText": "「どの次元にも、危険に立ち向かう者は必ずいる。」 ――ギデオン・ジュラ",
+        "language": "Japanese",
+        "name": "英雄的行動",
+        "text": "クリーチャー１体を対象とし、それをアンタップする。ターン終了時まで、それは＋２/＋２の修整を受けるとともに、このターン、それは追加で１体のクリーチャーをブロックできる。",
+        "type": "インスタント"
+      },
+      {
+        "flavorText": "\"모든 차원에는 위험을 불사하는 자들이 있다.\" —기디온 주라",
+        "language": "Korean",
+        "name": "영웅적인 행동",
+        "text": "생물을 목표로 정한다. 그 생물을 언탭한다. 그 생물은 턴종료까지 +2/+2를 받으며, 이 턴에 생물 한 개를 추가로 방어할 수 있다.",
+        "type": "순간마법"
+      },
+      {
+        "flavorText": "\"Em todo plano há os que correm rumo ao perigo.\" — Gideon Jura",
+        "language": "Portuguese (Brazil)",
+        "name": "Ato de Heroísmo",
+        "text": "Desvire a criatura alvo. Ela recebe +2/+2 até o final do turno e pode bloquear uma criatura adicional neste turno.",
+        "type": "Mágica Instantânea"
+      },
+      {
+        "flavorText": "«В каждом мире есть те, кто бросается опасности навстречу». — Гидеон Джура",
+        "language": "Russian",
+        "name": "Героический Подвиг",
+        "text": "Разверните целевое существо. Оно получает +2/+2 до конца хода и может блокировать дополнительное существо в этом ходу.",
+        "type": "Мгновенное заклинание"
+      },
+      {
+        "flavorText": "「每个时空都有不惧危难之人。」 ～基定尤拉",
+        "language": "Chinese Simplified",
+        "name": "英勇义举",
+        "text": "重置目标生物。它得+2/+2直到回合结束，且本回合可以额外多阻挡一个生物。",
+        "type": "瞬间"
+      },
+      {
+        "flavorText": "「每個時空都有不懼危難之人。」 ～基定尤拉",
+        "language": "Chinese Traditional",
+        "name": "英勇義舉",
+        "text": "重置目標生物。它得+2/+2直到回合結束，且本回合可以額外多阻擋一個生物。",
+        "type": "瞬間"
+      }
+    ],
+    "layout": "normal",
+    "legalities": {
+      "commander": "Legal",
+      "duel": "Legal",
+      "frontier": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "pauper": "Legal",
+      "penny": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{1}{W}",
+    "name": "Act of Heroism",
+    "printings": [
+      "A25",
+      "HOU"
+    ],
+    "rulings": [
+      {
+        "date": "2018-03-16",
+        "text": "You can cast Act of Heroism even if the target creature won’t be able to block right away, perhaps because you’re the attacking player."
+      },
+      {
+        "date": "2018-03-16",
+        "text": "Untapping an attacking creature doesn’t remove it from combat."
+      },
+      {
+        "date": "2018-03-16",
+        "text": "Act of Heroism can target an untapped creature. It still gets +2/+2 and can block an additional creature."
+      },
+      {
+        "date": "2018-03-16",
+        "text": "The effects of Act of Heroism are cumulative. If multiples resolve targeting the same creature, that creature can block that many additional creatures this turn."
+      }
+    ],
+    "scryfallIllustrationId": "1d1e4b6d-8066-4eba-b3e7-5cf9a3d81263",
+    "scryfallOracleId": "25edb501-11b5-4617-8a65-2eb4869cccd5",
+    "subtypes": [],
+    "supertypes": [],
+    "tcgplayerProductId": 136665,
+    "tcgplayerPurchaseUrl": "https://mtgjson.com/links/6286c460d6a622d5",
+    "text": "Untap target creature. It gets +2/+2 until end of turn and can block an additional creature this turn.",
+    "type": "Instant",
+    "types": [
+      "Instant"
+    ],
+    "uuid": "def1f4c3-d4bc-5bfa-9eae-b332b740fc1f",
+    "uuidV421": "e178f194-52f8-5f92-95ad-94be012971da"
+  },
+  "Act of Treason": {
+    "colorIdentity": [
+      "R"
+    ],
+    "colors": [
+      "R"
+    ],
+    "convertedManaCost": 3.0,
+    "foreignData": [
+      {
+        "flavorText": "„Zorn wallt in jedem Herzen und versucht, aus seinem Gefängnis der Vernunft auszubrechen.\" —Sarkhan Vol",
+        "language": "German",
+        "name": "Verräterische Tat",
+        "text": "Übernimm die Kontrolle über eine Kreatur deiner Wahl bis zum Ende des Zuges. Enttappe diese Kreatur. Sie erhält Eile bis zum Ende des Zuges. (Sie kann in diesem Zug angreifen und {T}.)",
+        "type": "Hexerei"
+      },
+      {
+        "flavorText": "\"La furia existe en todos los corazones, amenazando con traicionar su prisión racional.\" —Sarkhan Vol",
+        "language": "Spanish",
+        "name": "Acto de traición",
+        "text": "Gana el control de la criatura objetivo hasta el final del turno. Endereza esa criatura. Gana la habilidad de prisa hasta el final del turno. (Puede atacar y {T} este turno.)",
+        "type": "Conjuro"
+      },
+      {
+        "flavorText": "« La rage bout dans chaque cœur, menaçant à chaque instant de trahir sa prison rationnelle. » —Sarkhan Vol",
+        "language": "French",
+        "name": "Acte de trahison",
+        "text": "Acquérez le contrôle de la créature ciblée jusqu'à la fin du tour. Dégagez cette créature. Elle acquiert la célérité jusqu'à la fin du tour. (Elle peut attaquer et {T} ce tour-ci.)",
+        "type": "Rituel"
+      },
+      {
+        "flavorText": "\"L'ira scorre in ogni cuore, desiderando tradire la sua prigione razionale.\" —Sarkhan Vol",
+        "language": "Italian",
+        "name": "Atto di Tradimento",
+        "text": "Prendi il controllo di una creatura bersaglio fino alla fine del turno. STAPpa quella creatura. Ha rapidità fino alla fine del turno. (Può attaccare e {T} in questo turno.)",
+        "type": "Stregoneria"
+      },
+      {
+        "flavorText": "「怒りは誰の心の中にもあり、道理の檻を抜けることを求め続けている。」 ――サルカン・ヴォル",
+        "language": "Japanese",
+        "name": "反逆の行動",
+        "text": "クリーチャー１体を対象とし、ターン終了時までそれのコントロールを得る。 そのクリーチャーをアンタップする。 それはターン終了時まで速攻を得る。 （このターン、それは攻撃したり{T}したりできる。）",
+        "type": "ソーサリー"
+      },
+      {
+        "flavorText": "\"O ódio mora em cada coração, ansioso para trair sua prisão racional.\" — Sarkhan Vol",
+        "language": "Portuguese (Brazil)",
+        "name": "Ato de Traição",
+        "text": "Ganhe o controle da criatura alvo até o final do turno. Desvire aquela criatura. Ela ganha ímpeto até o final do turno. (Ela pode atacar e {T} neste turno.)",
+        "type": "Feitiço"
+      },
+      {
+        "flavorText": "«Ярость стучит в каждом сердце и жаждет предать свой рациональный застенок». — Сархан Воль",
+        "language": "Russian",
+        "name": "Акт Измены",
+        "text": "Получите контроль над целевым существом до конца хода. Разверните то существо. Оно получает Ускорение до конца хода. (Оно может атаковать и {T} в этом ходу.)",
+        "type": "Волшебство"
+      },
+      {
+        "flavorText": "「怒火在每颗心中奔流，嚷叫着要叛离这天生囚笼。」 ～萨坎沃",
+        "language": "Chinese Simplified",
+        "name": "叛行",
+        "text": "获得目标生物的操控权直到回合结束。 重置该生物。 它获得敏捷异能直到回合结束。 （它此回合便能攻击与{T}。）",
+        "type": "法术"
+      }
+    ],
+    "layout": "normal",
+    "legalities": {
+      "commander": "Legal",
+      "duel": "Legal",
+      "frontier": "Legal",
+      "future": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "pauper": "Legal",
+      "penny": "Legal",
+      "standard": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{2}{R}",
+    "name": "Act of Treason",
+    "printings": [
+      "A25",
+      "DDN",
+      "DPA",
+      "GTC",
+      "KTK",
+      "M10",
+      "M11",
+      "M12",
+      "M14",
+      "M19",
+      "ORI",
+      "PS11",
+      "RNA"
+    ],
+    "rulings": [
+      {
+        "date": "2019-01-25",
+        "text": "Act of Treason can target any creature, even one that’s untapped or one you already control."
+      },
+      {
+        "date": "2019-01-25",
+        "text": "Gaining control of a creature doesn’t cause you to gain control of any Auras or Equipment attached to it."
+      }
+    ],
+    "scryfallIllustrationId": "6cd9bce3-59c7-4451-b680-8241e0ac8d9e",
+    "scryfallOracleId": "9d08af23-9f4a-4097-9abc-3b17475ab744",
+    "subtypes": [],
+    "supertypes": [],
+    "tcgplayerProductId": 35418,
+    "tcgplayerPurchaseUrl": "https://mtgjson.com/links/dc3f1a9a04668f5f",
+    "text": "Gain control of target creature until end of turn. Untap that creature. It gains haste until end of turn.",
+    "type": "Sorcery",
+    "types": [
+      "Sorcery"
+    ],
+    "uuid": "d03edead-2a9a-5dee-a269-0a5535f97a2c",
+    "uuidV421": "29779389-002e-5552-ada0-a49f754cf489"
+  },
+  "Act on Impulse": {
+    "colorIdentity": [
+      "R"
+    ],
+    "colors": [
+      "R"
+    ],
+    "convertedManaCost": 3.0,
+    "foreignData": [
+      {
+        "flavorText": "„Du willst nicht wissen, was geschieht, wenn ich die Schutzbrille aufgesetzt habe.\"",
+        "language": "German",
+        "name": "Impulsives Handeln",
+        "text": "Schicke die obersten drei Karten deiner Bibliothek ins Exil. Bis zum Ende des Zuges kannst du Karten spielen, die auf diese Weise ins Exil geschickt wurden. (Falls du auf diese Weise einen Zauberspruch wirkst, bezahlst du immer noch seine Kosten. Du kannst auf diese Weise nur dann ein Land spielen, falls du in diesem Zug noch eines spielen darfst.)",
+        "type": "Hexerei"
+      },
+      {
+        "flavorText": "\"No te conviene saber lo que ocurre una vez que me pongo las gafas\".",
+        "language": "Spanish",
+        "name": "Actuar por impulso",
+        "text": "Exilia las tres primeras cartas de tu biblioteca. Hasta el final del turno, puedes jugar las cartas exiliadas de esta manera. (Si lanzas un hechizo de esta manera, sigues pagando sus costes. Puedes jugar una tierra de esta manera solo si te queda una jugada de tierra disponible.)",
+        "type": "Conjuro"
+      },
+      {
+        "flavorText": "« Jetons un voile pudique sur ce qui se passe une fois mes lunettes chaussées. »",
+        "language": "French",
+        "name": "Agir par impulsion",
+        "text": "Exilez les trois cartes du dessus de votre bibliothèque. Jusqu'à la fin du tour, vous pouvez jouer les cartes exilées de cette manière. (Si vous lancez un sort de cette manière, vous payez toujours ses coûts. Vous ne pouvez jouer un terrain de cette manière que s'il vous reste une mise en jeu de terrain disponible.)",
+        "type": "Rituel"
+      },
+      {
+        "flavorText": "\"Non vuoi sapere cosa succede quando mi metto gli occhialoni.\"",
+        "language": "Italian",
+        "name": "Agire d'Impulso",
+        "text": "Esilia le prime tre carte del tuo grimorio. Fino alla fine del turno, puoi giocare le carte esiliate in questo modo. (Se lanci una magia in questo modo, paghi comunque i suoi costi. Puoi giocare una terra in questo modo solo se potresti giocarne una normalmente.)",
+        "type": "Stregoneria"
+      },
+      {
+        "flavorText": "「私がゴーグルをつけたら何が起こるかなんて、知らないほうが身のためだよ。」",
+        "language": "Japanese",
+        "name": "衝動的な行動",
+        "text": "あなたのライブラリーの一番上から３枚のカードを追放する。ターン終了時まで、あなたはこれにより追放されたカードをプレイしてもよい。（あなたがこれにより呪文を唱えるなら、その呪文のコストは支払う必要がある。これにより土地をプレイするには、あなたは土地プレイを残している必要がある。）",
+        "type": "ソーサリー"
+      },
+      {
+        "flavorText": "\"내가 고글을 착용하면 무슨 일이 벌어지는지 모르는 게 낫다.\"",
+        "language": "Korean",
+        "name": "충동적인 행동",
+        "text": "당신의 서고 맨 위의 카드 세 장을 추방한다. 턴종료까지, 당신은 이렇게 추방된 카드들을 플레이할 수 있다. (당신이 이런 식으로 주문을 발동하면, 당신은 여전히 그 주문의 비용을 지불한다. 당신은 대지를 플레이할 수 있는 경우에만 이런 식으로 대지를 플레이할 수 있다.)",
+        "type": "집중마법"
+      },
+      {
+        "flavorText": "\"Você não quer saber o que acontece depois que eu coloco os óculos de proteção.\"",
+        "language": "Portuguese (Brazil)",
+        "name": "Agir por Impulso",
+        "text": "Exile os três cards do topo de seu grimório. Até o final do turno, você pode jogar os cards exilados desta maneira. (Se você conjura uma mágica desta maneira, ainda paga seus custos. Você só pode jogar um terreno desta forma se ainda puder jogar um terreno.)",
+        "type": "Feitiço"
+      },
+      {
+        "flavorText": "«Лучше не заставляй меня надевать очки!»",
+        "language": "Russian",
+        "name": "Импульсивные Действия",
+        "text": "Изгоните три верхние карты вашей библиотеки. До конца хода вы можете разыграть изгнанные таким образом карты. (Если вы разыгрываете таким образом заклинание, вы должны оплатить его стоимости. Вы можете разыграть таким образом землю, только если у вас осталась возможность разыгрывания земли в этом ходу.)",
+        "type": "Волшебство"
+      },
+      {
+        "flavorText": "「你不会想知道我戴上防护镜之后会发生什么。」",
+        "language": "Chinese Simplified",
+        "name": "逞性妄为",
+        "text": "放逐你牌库顶的三张牌。直到回合结束，你可以使用以此法放逐的牌。（如果你以此法施放咒语，你依旧要支付其费用。你只能于你仍有可使用地数的时候，才能以此法使用地。）",
+        "type": "法术"
+      },
+      {
+        "flavorText": "「你不會想知道我戴上防護鏡之後會發生什麼。」",
+        "language": "Chinese Traditional",
+        "name": "逞性妄為",
+        "text": "放逐你牌庫頂的三張牌。直到回合結束，你可以使用以此法放逐的牌。（如果你以此法施放咒語，你依舊要支付其費用。你只能於你仍有可使用地數的時候，才能以此法使用地。）",
+        "type": "巫術"
+      }
+    ],
+    "layout": "normal",
+    "legalities": {
+      "commander": "Legal",
+      "duel": "Legal",
+      "frontier": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "penny": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{2}{R}",
+    "name": "Act on Impulse",
+    "printings": [
+      "M15"
+    ],
+    "rulings": [
+      {
+        "date": "2014-07-18",
+        "text": "The cards are exiled face up."
+      },
+      {
+        "date": "2014-07-18",
+        "text": "Playing a card this way follows the normal rules for playing the card. You must pay its costs, and you must follow all applicable timing rules. For example, if one of the cards is a creature card, you can cast that card only during your main phase while the stack is empty."
+      },
+      {
+        "date": "2014-07-18",
+        "text": "Under normal circumstances, you can play a land card exiled with Act on Impulse only if you haven’t played a land yet that turn."
+      },
+      {
+        "date": "2014-07-18",
+        "text": "Any cards you don’t play will remain exiled."
+      }
+    ],
+    "scryfallIllustrationId": "f6dd0643-3e3c-4a71-850a-eef0570d26a5",
+    "scryfallOracleId": "19ad338a-c89f-406d-ad1a-222c22044e1b",
+    "subtypes": [],
+    "supertypes": [],
+    "tcgplayerProductId": 91255,
+    "tcgplayerPurchaseUrl": "https://mtgjson.com/links/89b3976a04930b0b",
+    "text": "Exile the top three cards of your library. Until end of turn, you may play cards exiled this way. (If you cast a spell this way, you still pay its costs. You can play a land this way only if you have an available land play remaining.)",
+    "type": "Sorcery",
+    "types": [
+      "Sorcery"
+    ],
+    "uuid": "a21c0899-6ab3-51d6-b6f3-9f2f774820df",
+    "uuidV421": "9edfa821-34e7-5153-bb28-50831dceee06"
+  },
+  "Active Volcano": {
+    "colorIdentity": [
+      "R"
+    ],
+    "colors": [
+      "R"
+    ],
+    "convertedManaCost": 1.0,
+    "foreignData": [],
+    "layout": "normal",
+    "legalities": {
+      "commander": "Legal",
+      "duel": "Legal",
+      "legacy": "Legal",
+      "oldschool": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{R}",
+    "name": "Active Volcano",
+    "printings": [
+      "CHR",
+      "LEG",
+      "ME3"
+    ],
+    "rulings": [],
+    "scryfallIllustrationId": "7b483552-1b3d-4728-a55c-b149aad57da5",
+    "scryfallOracleId": "205ffa76-ff8e-4405-b21a-42358a9883c2",
+    "subtypes": [],
+    "supertypes": [],
+    "tcgplayerProductId": 3353,
+    "tcgplayerPurchaseUrl": "https://mtgjson.com/links/e1deda4c9751baf1",
+    "text": "Choose one —\n• Destroy target blue permanent.\n• Return target Island to its owner's hand.",
+    "type": "Instant",
+    "types": [
+      "Instant"
+    ],
+    "uuid": "93104525-222f-5f82-8350-da27193c2e50",
+    "uuidV421": "9e24a62f-f9ab-588b-906c-9158a070f8d6"
+  },
+  "Ad Nauseam": {
+    "colorIdentity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "convertedManaCost": 5.0,
+    "foreignData": [
+      {
+        "flavorText": "Als die Arbeit in den Bereich des Untoten überging, nannte er sie nicht mehr sein Lebenswerk.",
+        "language": "German",
+        "name": "Bis zum Erbrechen",
+        "text": "Zeige die oberste Karte deiner Bibliothek offen vor und nimm sie auf deine Hand. Du verlierst Lebenspunkte in Höhe ihrer umgewandelten Manakosten. Du kannst diesen Prozess beliebig oft wiederholen.",
+        "type": "Spontanzauber"
+      },
+      {
+        "flavorText": "Cuando su tarea continuó en la muerte viviente, dejó de llamarlo \"el trabajo de mi vida\".",
+        "language": "Spanish",
+        "name": "Ad nauseam",
+        "text": "Muestra la primera carta de tu biblioteca y ponla en tu mano. Pierdes una cantidad de vida igual a su coste de maná convertido. Puedes repetir este proceso tantas veces como quieras.",
+        "type": "Instantáneo"
+      },
+      {
+        "flavorText": "Quand son travail empiéta sur sa mort, il cessa de l'appeler l'œuvre de sa vie.",
+        "language": "French",
+        "name": "Ad Nauseam",
+        "text": "Révélez la carte du dessus de votre bibliothèque et mettez cette carte dans votre main. Vous perdez autant de points de vie que son coût converti de mana. Vous pouvez répéter ce processus autant de fois que vous le souhaitez.",
+        "type": "Éphémère"
+      },
+      {
+        "flavorText": "Quando l'incarico si trasformò in non morte, smise di chiamarlo il lavoro della sua vita.",
+        "language": "Italian",
+        "name": "Ad Nauseam",
+        "text": "Rivela la prima carta del tuo grimorio e aggiungila alla tua mano. Perdi punti vita pari al costo di mana convertito di quella carta. Puoi ripetere questo procedimento un qualsiasi numero di volte.",
+        "type": "Istantaneo"
+      },
+      {
+        "flavorText": "その業が不死の領域に触れるようになってから、彼はそれを一生の仕事と呼ぶことをやめた。",
+        "language": "Japanese",
+        "name": "むかつき",
+        "text": "あなたのライブラリーの一番上のカードを公開し、そのカードをあなたの手札に加える。 あなたはそれの点数で見たマナ・コストに等しい点数のライフを失う。あなたはこの手順を望む回数だけ繰り返してもよい。",
+        "type": "インスタント"
+      },
+      {
+        "flavorText": "Quando a tarefa passou a envolver até os mortos-vivos, ele parou de chamá-la de \"a obra de sua vida\".",
+        "language": "Portuguese (Brazil)",
+        "name": "Até Enjoar",
+        "text": "Revele o card do topo de seu grimório e coloque-o na sua mão. Você perde uma quantidade de pontos de vida igual ao seu custo de mana convertido. Você pode repetir esse processo quantas vezes desejar.",
+        "type": "Mágica Instantânea"
+      },
+      {
+        "flavorText": "Когда его творение случайно превратилось в нежить, он перестал называть его делом своей жизни.",
+        "language": "Russian",
+        "name": "До Тошноты",
+        "text": "Покажите верхнюю карту вашей библиотеки и положите ту карту в вашу руку. Вы теряете количество жизней, равное ее конвертированной мана-стоимости. Вы можете повторять этот процесс сколько угодно раз.",
+        "type": "Мгновенное заклинание"
+      },
+      {
+        "flavorText": "当任务在他死后的生涯仍需持续，他便不再称此为「终生使命」。",
+        "language": "Chinese Simplified",
+        "name": "倒胃口",
+        "text": "展示你的牌库顶牌，并将该牌放入你手上。 你失去与该牌之总法术力费用等量的生命。你可将此流程重复进行任意次数。",
+        "type": "瞬间"
+      }
+    ],
+    "layout": "normal",
+    "legalities": {
+      "commander": "Legal",
+      "duel": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{3}{B}{B}",
+    "name": "Ad Nauseam",
+    "printings": [
+      "ALA"
+    ],
+    "rulings": [
+      {
+        "date": "2008-10-01",
+        "text": "Each time you put the revealed card into your hand and lose the appropriate amount of life, you decide whether to continue by revealing another card. In other words, you don’t decide in advance how many cards to put into your hand this way."
+      },
+      {
+        "date": "2008-10-01",
+        "text": "You may continue to reveal cards with Ad Nauseam even if your life total has been reduced to 0 or less. If you continue, you will continue to lose life, dropping your life total into negative numbers. As soon as you stop, you’ll lose the game as a state-based action."
+      }
+    ],
+    "scryfallIllustrationId": "a954eea3-b937-4152-8390-ea7b15398009",
+    "scryfallOracleId": "981b0e21-e5e6-4a1e-bfde-679d56623f7f",
+    "subtypes": [],
+    "supertypes": [],
+    "tcgplayerProductId": 27601,
+    "tcgplayerPurchaseUrl": "https://mtgjson.com/links/57d1ec857c955b4b",
+    "text": "Reveal the top card of your library and put that card into your hand. You lose life equal to its converted mana cost. You may repeat this process any number of times.",
+    "type": "Instant",
+    "types": [
+      "Instant"
+    ],
+    "uuid": "78ee699f-d25d-594d-abd0-176af9cdbc9f",
+    "uuidV421": "1177b0f3-90df-54b5-9762-dfd1522b1108"
+  },
+  "Adamant Will": {
+    "colorIdentity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "convertedManaCost": 2.0,
+    "foreignData": [
+      {
+        "flavorText": "Es brauchte ein Jahr, um diesen Schild herzustellen, einen Monat, um ihn zu verzaubern und ein Jahrzehnt, um den Umgang damit zu meistern – und das alles für einen glorreichen Augenblick.",
+        "language": "German",
+        "name": "Unerschütterlicher Wille",
+        "text": "Eine Kreatur deiner Wahl erhält +2/+2 und Unzerstörbarkeit bis zum Ende des Zuges. (Schaden und Effekte, die „zerstören\", zerstören sie nicht.)",
+        "type": "Spontanzauber"
+      },
+      {
+        "flavorText": "Llevó un año fabricar el escudo, un mes encantarlo y una década aprender a usarlo; todo para un único momento glorioso.",
+        "language": "Spanish",
+        "name": "Voluntad inflexible",
+        "text": "La criatura objetivo obtiene +2/+2 y gana la habilidad de indestructible hasta el final del turno. (El daño y los efectos que dicen \"destruir\" no la destruyen.)",
+        "type": "Instantáneo"
+      },
+      {
+        "flavorText": "Il fallut un an pour façonner ce bouclier, un mois pour l'enchanter et une décennie pour le maîtriser. Tout cela pour un seul moment de gloire.",
+        "language": "French",
+        "name": "Volonté inflexible",
+        "text": "La créature ciblée gagne +2/+2 et acquiert l'indestructible jusqu'à la fin du tour. (Les blessures et les effets qui disent « détruisez » ne la détruisent pas.)",
+        "type": "Éphémère"
+      },
+      {
+        "flavorText": "Per forgiare lo scudo ci volle un anno, per incantarlo un mese, per padroneggiarlo alla perfezione un decennio: tutto per un unico momento di gloria.",
+        "language": "Italian",
+        "name": "Volontà Adamantina",
+        "text": "Una creatura bersaglio prende +2/+2 e ha indistruttibile fino alla fine del turno. (Il danno e gli effetti che dicono \"distruggi\" non la distruggono.)",
+        "type": "Istantaneo"
+      },
+      {
+        "flavorText": "この盾の製作に１年、魔法を掛けるのに１か月を費やした。使いこなせるまでには10年の歳月が必要だった。それはすべて、この一瞬のためである。",
+        "language": "Japanese",
+        "name": "不屈の意志",
+        "text": "クリーチャー１体を対象とする。ターン終了時まで、それは＋２/＋２の修整を受けるとともに破壊不能を得る。（ダメージや「破壊」と書かれた効果では、それは破壊されない。）",
+        "type": "インスタント"
+      },
+      {
+        "flavorText": "방패는 제작하는 데 1년이 걸리고, 마법을 부여하는 데 한 달이 걸리며, 숙달되는 데 10년이 걸린다—이 모든 것이 영광스러운 한 순간을 위해서이다.",
+        "language": "Korean",
+        "name": "단호한 의지",
+        "text": "생물을 목표로 정한다. 그 생물은 턴종료까지 +2/+2를 받고 무적을 얻는다. (피해와 \"파괴\"라고 명시된 효과로 파괴되지 않는다.)",
+        "type": "순간마법"
+      },
+      {
+        "flavorText": "O escudo levou um ano para ser feito, um mês para ser encantado, e uma década para ser dominado — tudo por um glorioso momento.",
+        "language": "Portuguese (Brazil)",
+        "name": "Vontade Adamantina",
+        "text": "A criatura alvo recebe +2/+2 e ganha indestrutível até o final do turno. (Dano e efeitos que dizem \"destrua\" não a destroem.)",
+        "type": "Mágica Instantânea"
+      },
+      {
+        "flavorText": "Год на то, чтобы выковать щит, месяц на то, чтобы наложить на него чары, и десятилетие на то, чтобы научиться мастерски владеть им, — все ради одного момента славы.",
+        "language": "Russian",
+        "name": "Непреклонная Воля",
+        "text": "Целевое существо получает +2/+2 и Неразрушимость до конца хода. (Повреждения и эффекты с указанием «уничтожьте» не уничтожают его.)",
+        "type": "Мгновенное заклинание"
+      },
+      {
+        "flavorText": "这面盾牌耗经一年打造，历时一月施魔，苦练十年掌握～就为等一个荣光时刻。",
+        "language": "Chinese Simplified",
+        "name": "坚定意志",
+        "text": "目标生物得+2/+2且获得不灭异能直到回合结束。（伤害与注明「消灭」的效应不会将它消灭。）",
+        "type": "瞬间"
+      },
+      {
+        "flavorText": "這面盾牌耗經一年打造，歷時一月施魔，苦練十年掌握～就為等一個榮光時刻。",
+        "language": "Chinese Traditional",
+        "name": "堅定意志",
+        "text": "目標生物得+2/+2且獲得不滅異能直到回合結束。（傷害與註明「消滅」的效應不會將它消滅。)",
+        "type": "瞬間"
+      }
+    ],
+    "layout": "normal",
+    "legalities": {
+      "commander": "Legal",
+      "duel": "Legal",
+      "frontier": "Legal",
+      "future": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "pauper": "Legal",
+      "penny": "Legal",
+      "standard": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{1}{W}",
+    "name": "Adamant Will",
+    "printings": [
+      "DOM"
+    ],
+    "rulings": [],
+    "scryfallIllustrationId": "8783d8d3-9c2b-45c6-b611-262d2fe4da54",
+    "scryfallOracleId": "467e22c3-6107-40ff-afc7-5960710c970b",
+    "subtypes": [],
+    "supertypes": [],
+    "tcgplayerProductId": 164696,
+    "tcgplayerPurchaseUrl": "https://mtgjson.com/links/f50beea7dc445eff",
+    "text": "Target creature gets +2/+2 and gains indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it.)",
+    "type": "Instant",
+    "types": [
+      "Instant"
+    ],
+    "uuid": "b5f98d3d-533e-5306-ab6a-824c6449e6b5",
+    "uuidV421": "bda89d4a-5de2-5e22-9c3e-0bb11684f6a8"
+  },
+  "Adamaro, First to Desire": {
+    "colorIdentity": [
+      "R"
+    ],
+    "colors": [
+      "R"
+    ],
+    "convertedManaCost": 3.0,
+    "foreignData": [
+      {
+        "flavorText": "„Fürchtet Adamaro In ihm sind Schmerz und Zorn perfekt vereinigt.\"\n—Isao, Erleuchteter Bushi",
+        "language": "German",
+        "name": "Adamaro, als Erster begehrend",
+        "text": "Stärke und Widerstandskraft von Adamaro, als Erster begehrend, sind gleich der Anzahl an Karten auf der Hand des Gegners, der die meisten Karten auf der Hand hat.",
+        "type": "Legendäre Kreatur - Geist"
+      },
+      {
+        "flavorText": "\"¡Cuidado con Adamaro En él, todo el dolor y la furia están perfeccionados.\"\n—Isao, bushi inspirado",
+        "language": "Spanish",
+        "name": "Adamaro, el primero en desear",
+        "text": "La fuerza y resistencia de Adamaro, el primero en desear son iguales al número de cartas en la mano del oponente con más cartas en la mano.",
+        "type": "Criatura legendaria - Espíritu"
+      },
+      {
+        "flavorText": "« Prenez garde à Adamaro Chez lui, rage et souffrance sont parfaitement harmonisées. »\n—Isao, bushi éclairé",
+        "language": "French",
+        "name": "Adamaro, premier à désirer",
+        "text": "La force et l'endurance d'Adamaro, premier à désirer sont chacune égale au nombre de cartes dans la main de l'adversaire qui a le plus de cartes en main.",
+        "type": "Créature légendaire : esprit"
+      },
+      {
+        "flavorText": "\"Guardatevi da Adamaro In lui dolore e rabbia conoscono la perfezione.\"\n—Isao, Bushi Illuminato",
+        "language": "Italian",
+        "name": "Adamaro, Primo a Desiderare",
+        "text": "La forza e la costituzione di Adamaro, Primo a Desiderare sono pari ciascuna al numero di carte che ha in mano l'avversario con più carte in mano.",
+        "type": "Creatura Leggendaria - Spirito"
+      },
+      {
+        "flavorText": "仇麻呂に気をつけよ！ すべての苦痛と憤怒は彼の中で成就されるのだ。\n――悟りの武士、勲雄",
+        "language": "Japanese",
+        "name": "初めて求めたもの、仇麻呂",
+        "text": "初めて求めたもの、仇麻呂のパワーとタフネスはそれぞれ、手札のカードの枚数が最も多い対戦相手の手札のカードの枚数に等しい。",
+        "type": "伝説のクリーチャー — スピリット"
+      },
+      {
+        "flavorText": "\"Tenha cuidado Adamaro Nele toda a dor e a raiva é aperfeiçoada.\"\n— Isao, Bushi Iluminado",
+        "language": "Portuguese (Brazil)",
+        "name": "Adamaro, O Primeiro a Desejar",
+        "text": "O poder e a resistência de Adamaro, O Primeiro a Desejar são ambos iguais ao número de cards da mão do oponente com mais cards na mão.",
+        "type": "Criatura Lendária - Espírito"
+      },
+      {
+        "flavorText": "「务必提防仇麻吕！ 他是苦痛与愤怒的精粹。」\n～悟道武士勋雄",
+        "language": "Chinese Simplified",
+        "name": "始欲仇麻吕",
+        "text": "始欲仇麻吕的力量和防御力各等同于手牌数量最多之对手的手牌数量。",
+        "type": "传奇生物～精怪"
+      }
+    ],
+    "layout": "normal",
+    "legalities": {
+      "commander": "Legal",
+      "duel": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "penny": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{1}{R}{R}",
+    "name": "Adamaro, First to Desire",
+    "power": "*",
+    "printings": [
+      "SOK"
+    ],
+    "rulings": [],
+    "scryfallIllustrationId": "6ebb00af-187a-4030-bf71-f0a77c394ae5",
+    "scryfallOracleId": "18f34bfd-7675-49df-91ea-695c510cd3c3",
+    "subtypes": [
+      "Spirit"
+    ],
+    "supertypes": [
+      "Legendary"
+    ],
+    "tcgplayerProductId": 12393,
+    "tcgplayerPurchaseUrl": "https://mtgjson.com/links/035bdde78a6a7ec7",
+    "text": "Adamaro, First to Desire's power and toughness are each equal to the number of cards in the hand of the opponent with the most cards in hand.",
+    "toughness": "*",
+    "type": "Legendary Creature — Spirit",
+    "types": [
+      "Creature"
+    ],
+    "uuid": "e30e5324-ca8b-5759-9c9c-cf6b29532349",
+    "uuidV421": "481438d1-4b3e-5c85-98ff-e7cc993c1752"
+  },
+  "Adanto Vanguard": {
+    "colorIdentity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "convertedManaCost": 2.0,
+    "foreignData": [
+      {
+        "language": "German",
+        "name": "Adanto-Vorhut",
+        "text": "Solange die Adanto-Vorhut angreift, erhält sie +2/+0.\nBezahle 4 Lebenspunkte: Die Adanto-Vorhut erhält Unzerstörbarkeit bis zum Ende des Zuges. (Schaden und Effekte, die „zerstören\", zerstören sie nicht.)",
+        "type": "Kreatur — Vampir, Soldat"
+      },
+      {
+        "language": "Spanish",
+        "name": "Vanguardia de Adanto",
+        "text": "Mientras la Vanguardia de Adanto esté atacando, obtiene +2/+0.\nPagar 4 vidas: La Vanguardia de Adanto gana la habilidad de indestructible hasta el final del turno. (El daño y los efectos que dicen \"destruir\" no la destruyen.)",
+        "type": "Criatura — Soldado vampiro"
+      },
+      {
+        "language": "French",
+        "name": "Avant-garde d'Adanto",
+        "text": "Tant que l'Avant-garde d'Adanto attaque, elle gagne +2/+0.\nPayez 4 points de vie : L'Avant-garde d'Adanto acquiert l'indestructible jusqu'à la fin du tour. (Les blessures et les effets qui disent « détruisez » ne la détruisent pas.)",
+        "type": "Créature : vampire et soldat"
+      },
+      {
+        "language": "Italian",
+        "name": "Avanguardia di Adanto",
+        "text": "Fintanto che l'Avanguardia di Adanto attacca, prende +2/+0.\nPaga 4 punti vita: L'Avanguardia di Adanto ha indistruttibile fino alla fine del turno. (Il danno e gli effetti che dicono \"distruggi\" non la distruggono.)",
+        "type": "Creatura — Soldato Vampiro"
+      },
+      {
+        "language": "Japanese",
+        "name": "アダントの先兵",
+        "text": "アダントの先兵が攻撃しているかぎり、これは＋２/＋０の修整を受ける。\n４点のライフを支払う：ターン終了時まで、アダントの先兵は破壊不能を得る。（ダメージや「破壊」と書かれた効果では、これは破壊されない。）",
+        "type": "クリーチャー — 吸血鬼・兵士"
+      },
+      {
+        "language": "Korean",
+        "name": "아단토 선봉대",
+        "text": "아단토 선봉대가 공격 중인 한 아단토 선봉대는 +2/+0을 받는다.\n생명 4점을 지불한다: 아단토 선봉대는 턴종료까지 무적을 얻는다. (피해와 \"파괴\"라고 명시된 효과로 파괴되지 않는다.)",
+        "type": "생물 — 흡혈귀 병사"
+      },
+      {
+        "language": "Portuguese (Brazil)",
+        "name": "Vanguarda de Adanto",
+        "text": "Enquanto Vanguarda de Adanto estiver atacando, ela receberá +2/+0.\nPague 4 pontos de vida: Vanguarda de Adanto ganha indestrutível até o final do turno. (O dano e os efeitos que dizem \"destrua\" não a destroem.)",
+        "type": "Criatura — Vampiro Soldado"
+      },
+      {
+        "language": "Russian",
+        "name": "Авангард Аданто",
+        "text": "Пока Авангард Аданто атакует, он получает +2/+0.\nЗаплатите 4 жизни: Авангард Аданто получает Неразрушимость до конца хода. (Повреждения и эффекты с указанием «уничтожьте» не уничтожают его.)",
+        "type": "Существо — Вампир Солдат"
+      },
+      {
+        "language": "Chinese Simplified",
+        "name": "艾唐托先锋",
+        "text": "只要艾唐托先锋正进行攻击，它便得+2/+0。\n支付4点生命：艾唐托先锋获得不灭异能直到回合结束。（伤害与注明「消灭」的效应不会将它消灭。）",
+        "type": "生物 ～吸血鬼／士兵"
+      },
+      {
+        "language": "Chinese Traditional",
+        "name": "艾唐托先鋒",
+        "text": "只要艾唐托先鋒正進行攻擊，它便得+2/+0。\n支付4點生命：艾唐托先鋒獲得不滅異能直到回合結束。（傷害與註明「消滅」的效應不會將它消滅。）",
+        "type": "生物 ～吸血鬼／士兵"
+      }
+    ],
+    "layout": "normal",
+    "legalities": {
+      "commander": "Legal",
+      "duel": "Legal",
+      "frontier": "Legal",
+      "future": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "standard": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{1}{W}",
+    "name": "Adanto Vanguard",
+    "power": "1",
+    "printings": [
+      "XLN"
+    ],
+    "rulings": [],
+    "scryfallIllustrationId": "9e1bc3e7-2541-4a83-842a-70550a260f5e",
+    "scryfallOracleId": "91c380f6-2c41-48b7-9f07-104e8659e397",
+    "subtypes": [
+      "Vampire",
+      "Soldier"
+    ],
+    "supertypes": [],
+    "tcgplayerProductId": 145587,
+    "tcgplayerPurchaseUrl": "https://mtgjson.com/links/9f9db3808271278c",
+    "text": "As long as Adanto Vanguard is attacking, it gets +2/+0.\nPay 4 life: Adanto Vanguard gains indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it.)",
+    "toughness": "1",
+    "type": "Creature — Vampire Soldier",
+    "types": [
+      "Creature"
+    ],
+    "uuid": "8bda5ce8-2cd7-533e-be13-3fa4de67031e",
+    "uuidV421": "fe1dc19a-1910-505c-9bec-ec42fcc79f63"
+  },
+  "Adanto, the First Fort": {
+    "colorIdentity": [
+      "W"
+    ],
+    "colors": [],
+    "convertedManaCost": 1.0,
+    "faceConvertedManaCost": 0,
+    "foreignData": [],
+    "layout": "transform",
+    "legalities": {
+      "commander": "Legal",
+      "duel": "Legal",
+      "frontier": "Legal",
+      "future": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "standard": "Legal",
+      "vintage": "Legal"
+    },
+    "name": "Adanto, the First Fort",
+    "names": [
+      "Legion's Landing",
+      "Adanto, the First Fort"
+    ],
+    "printings": [
+      "PXLN",
+      "PXTC",
+      "XLN"
+    ],
+    "rulings": [
+      {
+        "date": "2017-09-29",
+        "text": "Once you’ve attacked with three or more creatures, Legion’s Landing will transform even if some of those creatures leave the battlefield or are removed from combat."
+      },
+      {
+        "date": "2017-09-29",
+        "text": "The last ability of Legion’s Landing only counts creatures that you declare as attacking creatures. Creatures that enter the battlefield attacking won’t count."
+      },
+      {
+        "date": "2018-01-19",
+        "text": "For more information on double-faced cards, see the Ixalan mechanics article (http://magic.wizards.com/en/articles/archive/feature/ixalan-mechanics)."
+      }
+    ],
+    "scryfallOracleId": "f7d8b91b-6541-4d3e-af51-7e000eac69c1",
+    "side": "b",
+    "subtypes": [],
+    "supertypes": [
+      "Legendary"
+    ],
+    "tcgplayerProductId": 146089,
+    "text": "(Transforms from Legion's Landing.)\n{T}: Add {W}.\n{2}{W}, {T}: Create a 1/1 white Vampire creature token with lifelink.",
+    "type": "Legendary Land",
+    "types": [
+      "Land"
+    ],
+    "uuid": "08276a1f-4db3-59aa-964b-6a72bf52622a",
+    "uuidV421": "55b6fe30-15cf-5f42-82ff-c385b3cc0002"
+  },
+  "Adaptive Automaton": {
+    "colorIdentity": [],
+    "colors": [],
+    "convertedManaCost": 3.0,
+    "foreignData": [
+      {
+        "flavorText": "Derartige Loyalität kann nur geschaffen sein.",
+        "language": "German",
+        "name": "Anpassungsfähige Kampfmaschine",
+        "text": "Sowie die Anpassungsfähige Kampfmaschine ins Spiel kommt, bestimme einen Kreaturentyp.\nDie Anpassungsfähige Kampfmaschine hat zusätzlich zu ihren anderen Typen den bestimmten Kreaturentyp.\nAndere Kreaturen des bestimmten Typs, die du kontrollierst, erhalten +1/+1.",
+        "type": "Artefaktkreatur — Konstrukt"
+      },
+      {
+        "flavorText": "Tanta lealtad sólo puede ser creada.",
+        "language": "Spanish",
+        "name": "Autómata adaptativo",
+        "text": "En cuanto el Autómata adaptativo entre al campo de batalla, elige un tipo de criatura.\nEl Autómata adaptativo es del tipo elegido además de sus otros tipos.\nLas otras criaturas que controlas del tipo elegido obtienen +1/+1.",
+        "type": "Criatura artefacto — Constructo"
+      },
+      {
+        "flavorText": "Une telle fidélité ne peut être qu'artificielle.",
+        "language": "French",
+        "name": "Automate évolutif",
+        "text": "Au moment où l'Automate évolutif arrive sur le champ de bataille, choisissez un type de créature.\nL'Automate évolutif a le type choisi en plus de ses autres types.\nLes autres créatures que vous contrôlez du type choisi gagnent +1/+1.",
+        "type": "Créature-artefact : construction"
+      },
+      {
+        "flavorText": "Una tale fedeltà può essere solo creata.",
+        "language": "Italian",
+        "name": "Automa Adattivo",
+        "text": "Mentre l'Automa Adattivo entra nel campo di battaglia, scegli un tipo di creatura.\nL'Automa Adattivo ha il tipo scelto in aggiunta ai suoi altri tipi.\nLe altre creature che controlli del tipo scelto prendono +1/+1.",
+        "type": "Creatura Artefatto — Costrutto"
+      },
+      {
+        "flavorText": "これほどの忠誠は作らねば手に入らない。",
+        "language": "Japanese",
+        "name": "順応する自動機械",
+        "text": "順応する自動機械が戦場に出るに際し、クリーチャー・タイプを１つ選ぶ。\n順応する自動機械は、それの他のタイプに加えてその選ばれたタイプでもある。\nあなたがコントロールするその選ばれたタイプの他のクリーチャーは＋１/＋１の修整を受ける。",
+        "type": "アーティファクト・クリーチャー — 構築物"
+      },
+      {
+        "flavorText": "저런 충성심은 제조된 것일 수 밖에 없다.",
+        "language": "Korean",
+        "name": "변신자동인형",
+        "text": "변신자동인형이 전장에 들어올 시에, 당신은 생물 유형 한 가지를 선택한다.변신자동인형은 자체의 다른 유형에 더불어 선택된 유형이기도 하다.당신이 조종하는 선택된 유형의 다른 생물들은 +1/+1을 받는다.",
+        "type": "마법물체 생물 — 자동기계"
+      },
+      {
+        "flavorText": "Uma lealdade desse tipo só pode ser fabricada.",
+        "language": "Portuguese (Brazil)",
+        "name": "Autômato Adaptável",
+        "text": "Conforme Autômato Adaptável entra no campo de batalha, escolha um tipo de criatura.\nAutômato Adaptável é do tipo escolhido além de seus outros tipos.\nAs outras criaturas do tipo escolhido que você controla recebem +1/+1.",
+        "type": "Criatura Artefato — Constructo"
+      },
+      {
+        "flavorText": "Такую преданность можно только смастерить.",
+        "language": "Russian",
+        "name": "Адаптивный Автомат",
+        "text": "При выходе Адаптивного Автомата на поле битвы выберите тип существа.\nАдаптивный Автомат обладает выбранным типом в дополнение к своим другим типам.\nДругие находящиеся под вашим контролем существа выбранного типа получают +1/+1.",
+        "type": "Артефактное Существо — Конструкция"
+      },
+      {
+        "flavorText": "此等忠诚绝非天然。",
+        "language": "Chinese Simplified",
+        "name": "适境机械兽",
+        "text": "于适境机械兽进战场时，选择一种生物类别。\n适境机械兽额外具有该类别。\n其他由你操控的该类别生物得+1/+1。",
+        "type": "神器生物～组构体"
+      },
+      {
+        "flavorText": "此等忠誠絕非天然。",
+        "language": "Chinese Traditional",
+        "name": "適境機械獸",
+        "text": "於適境機械獸進戰場時，選擇一種生物類別。\n適境機械獸額外具有該類別。\n其他由你操控的該類別生物得+1/+1。",
+        "type": "神器生物～組構體"
+      }
+    ],
+    "layout": "normal",
+    "legalities": {
+      "commander": "Legal",
+      "duel": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{3}",
+    "name": "Adaptive Automaton",
+    "power": "2",
+    "printings": [
+      "E02",
+      "M12"
+    ],
+    "rulings": [
+      {
+        "date": "2011-09-22",
+        "text": "The choice of creature type is made as Adaptive Automaton enters the battlefield. Players can’t respond to this choice. The bonus starts applying immediately."
+      },
+      {
+        "date": "2011-09-22",
+        "text": "You must choose an existing _Magic_ creature type."
+      },
+      {
+        "date": "2011-09-22",
+        "text": "Even though Adaptive Automaton is a Construct, other Construct creatures you control won’t get +1/+1 (unless you chose Construct as Adaptive Automaton entered the battlefield)."
+      }
+    ],
+    "scryfallIllustrationId": "cb2623f4-f76a-43bc-ba84-56c8cf85ff3f",
+    "scryfallOracleId": "53c730c6-2f8c-4af8-b400-b9d573a71e60",
+    "subtypes": [
+      "Construct"
+    ],
+    "supertypes": [],
+    "tcgplayerProductId": 47677,
+    "tcgplayerPurchaseUrl": "https://mtgjson.com/links/e828d3bf9cd9ac09",
+    "text": "As Adaptive Automaton enters the battlefield, choose a creature type.\nAdaptive Automaton is the chosen type in addition to its other types.\nOther creatures you control of the chosen type get +1/+1.",
+    "toughness": "2",
+    "type": "Artifact Creature — Construct",
+    "types": [
+      "Artifact",
+      "Creature"
+    ],
+    "uuid": "d9af9610-f094-57c1-afaf-0fbbeff4ef5e",
+    "uuidV421": "f2db3372-40d5-5b89-9523-b25d417023bf"
+  },
+  "Adaptive Snapjaw": {
+    "colorIdentity": [
+      "G"
+    ],
+    "colors": [
+      "G"
+    ],
+    "convertedManaCost": 5.0,
+    "foreignData": [
+      {
+        "flavorText": "„Hm, da muss mehr Kröte rein.\" —Gulistan, Simic-Biomagier",
+        "language": "German",
+        "name": "Anpassungsfähiger Schnappkiefer",
+        "text": "Weiterentwicklung (Lege eine +1/+1-Marke auf diese Kreatur, immer wenn eine andere Kreatur unter deiner Kontrolle ins Spiel kommt, falls Stärke oder Widerstandskraft der anderen Kreatur höher ist.)",
+        "type": "Kreatur — Eidechse, Bestie"
+      },
+      {
+        "flavorText": "\"Eh, le hace falta más sapo.\"—Gúlistan, biomante simic",
+        "language": "Spanish",
+        "name": "Mandibulatensa adaptativo",
+        "text": "Evolucionar. (Siempre que una criatura entre al campo de batalla bajo tu control, si la fuerza o la resistencia de esa criatura es mayor que la de esta criatura, pon un contador +1/+1 sobre esta criatura.)",
+        "type": "Criatura — Bestia lagarto"
+      },
+      {
+        "flavorText": "« Hmm, pas assez de crapaud. » —Gulistan, biomancien simic",
+        "language": "French",
+        "name": "Claquegueule évolutif",
+        "text": "Évolution (À chaque fois qu'une créature arrive sur le champ de bataille sous votre contrôle, si sa force ou son endurance est supérieure à celle de cette créature, mettez un marqueur +1/+1 sur cette créature.)",
+        "type": "Créature : lézard et bête"
+      },
+      {
+        "flavorText": "\"Eh, ci vuole più rospo.\" —Gulistan, biomante Simic",
+        "language": "Italian",
+        "name": "Mordifauce Adattiva",
+        "text": "Evoluzione (Ogniqualvolta una creatura entra nel campo di battaglia sotto il tuo controllo, se quella creatura ha forza o costituzione maggiore di questa creatura, metti un segnalino +1/+1 su questa creatura.)",
+        "type": "Creatura — Bestia Lucertola"
+      },
+      {
+        "flavorText": "「あー、カエルがもっと要るな。」――シミックの生術師、グリスタン",
+        "language": "Japanese",
+        "name": "順応する跳ね顎",
+        "text": "進化（クリーチャーが１体あなたのコントロール下で戦場に出るたび、そのクリーチャーのパワーかタフネスがこのクリーチャーよりも大きい場合、このクリーチャーの上に＋１/＋１カウンターを１個置く。）",
+        "type": "クリーチャー — トカゲ・ビースト"
+      },
+      {
+        "flavorText": "\"좀 더 두꺼비스러웠으면 좋겠어.\" —시믹 생명술사 굴리스탄",
+        "language": "Korean",
+        "name": "적응하는 덜컥턱",
+        "text": "진화 (당신이 조종하는 생물이 전장에 들어올 때마다, 그 생물의 공격력이 이 생물의 공격력보다 높거나 방어력이 이 생물의 방어력보다 높다면, 이 생물에 +1/+1 카운터 한 개를 올려놓는다.)",
+        "type": "생물 — 도마뱀 야수"
+      },
+      {
+        "flavorText": "\"Hmm, precisa de mais sapo.\"— Gulistan, biomante Simic",
+        "language": "Portuguese (Brazil)",
+        "name": "Mandíbula Atroz Adaptável",
+        "text": "Evoluir (Toda vez que uma criatura entrar no campo de batalha sob o seu controle, se ela tiver poder ou resistência maior que a desta criatura, coloque um marcador +1/+1 nesta criatura.)",
+        "type": "Criatura — Lagarto Besta"
+      },
+      {
+        "flavorText": "«Э-э... надо добавить жаб». — Гулистан, биомант Симиков",
+        "language": "Russian",
+        "name": "Адаптирующийся Щелкозуб",
+        "text": "Эволюция (Каждый раз, когда существо выходит на поле битвы под вашим контролем, если сила или выносливость того существа больше, чем у этого существа, положите один жетон +1/+1 на это существо.)",
+        "type": "Существо — Ящер Зверь"
+      },
+      {
+        "flavorText": "「呃，蟾蜍不够了。」 ～析米克生机术士顾里斯坦",
+        "language": "Chinese Simplified",
+        "name": "适境猛颚兽",
+        "text": "进化（每当一个生物在你的操控下进战场时，若该生物的力量或防御力大于此生物，则在后者上放置一个+1/+1指示物。）",
+        "type": "生物～蜥蜴／野兽"
+      },
+      {
+        "flavorText": "「呃，蟾蜍不夠了。」 ～析米克生機術士顧里斯坦",
+        "language": "Chinese Traditional",
+        "name": "適境猛顎獸",
+        "text": "進化（每當一個生物在你的操控下進戰場時，若該生物的力量或防禦力大於此生物，則在後者上放置一個+1/+1指示物。）",
+        "type": "生物～蜥蜴／野獸"
+      }
+    ],
+    "layout": "normal",
+    "legalities": {
+      "commander": "Legal",
+      "duel": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "pauper": "Legal",
+      "penny": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{4}{G}",
+    "name": "Adaptive Snapjaw",
+    "power": "6",
+    "printings": [
+      "GTC"
+    ],
+    "rulings": [
+      {
+        "date": "2013-04-15",
+        "text": "When comparing the stats of the two creatures for evolve, you always compare power to power and toughness to toughness."
+      },
+      {
+        "date": "2013-04-15",
+        "text": "Whenever a creature enters the battlefield under your control, check its power and toughness against the power and toughness of the creature with evolve. If neither stat of the new creature is greater, evolve won’t trigger at all."
+      },
+      {
+        "date": "2013-04-15",
+        "text": "If evolve triggers, the stat comparison will happen again when the ability tries to resolve. If neither stat of the new creature is greater, the ability will do nothing. If the creature that entered the battlefield leaves the battlefield before evolve tries to resolve, use its last known power and toughness to compare the stats."
+      },
+      {
+        "date": "2013-04-15",
+        "text": "If a creature enters the battlefield with +1/+1 counters on it, consider those counters when determining if evolve will trigger. For example, a 1/1 creature that enters the battlefield with two +1/+1 counters on it will cause the evolve ability of a 2/2 creature to trigger."
+      },
+      {
+        "date": "2013-04-15",
+        "text": "If multiple creatures enter the battlefield at the same time, evolve may trigger multiple times, although the stat comparison will take place each time one of those abilities tries to resolve. For example, if you control a 2/2 creature with evolve and two 3/3 creatures enter the battlefield, evolve will trigger twice. The first ability will resolve and put a +1/+1 counter on the creature with evolve. When the second ability tries to resolve, neither the power nor the toughness of the new creature is greater than that of the creature with evolve, so that ability does nothing."
+      },
+      {
+        "date": "2013-04-15",
+        "text": "When comparing the stats as the evolve ability resolves, it’s possible that the stat that’s greater changes from power to toughness or vice versa. If this happens, the ability will still resolve and you’ll put a +1/+1 counter on the creature with evolve. For example, if you control a 2/2 creature with evolve and a 1/3 creature enters the battlefield under your control, it toughness is greater so evolve will trigger. In response, the 1/3 creature gets +2/-2. When the evolve trigger tries to resolve, its power is greater. You’ll put a +1/+1 counter on the creature with evolve."
+      }
+    ],
+    "scryfallIllustrationId": "44bbb37b-f1e8-44b9-9908-3eafebe2f4b2",
+    "scryfallOracleId": "0a56e2ad-684d-45a7-9145-479d1505bba2",
+    "subtypes": [
+      "Lizard",
+      "Beast"
+    ],
+    "supertypes": [],
+    "tcgplayerProductId": 67471,
+    "tcgplayerPurchaseUrl": "https://mtgjson.com/links/81d0f6f12bd9fc9d",
+    "text": "Evolve (Whenever a creature enters the battlefield under your control, if that creature has greater power or toughness than this creature, put a +1/+1 counter on this creature.)",
+    "toughness": "2",
+    "type": "Creature — Lizard Beast",
+    "types": [
+      "Creature"
+    ],
+    "uuid": "c372ddb3-a479-5960-bd41-28a151d432d5",
+    "uuidV421": "4dbe0ffe-c49f-56cb-a957-b12e6b6d4ad7"
+  },
+  "Adarkar Sentinel": {
+    "colorIdentity": [],
+    "colors": [],
+    "convertedManaCost": 5.0,
+    "foreignData": [],
+    "layout": "normal",
+    "legalities": {
+      "commander": "Legal",
+      "duel": "Legal",
+      "legacy": "Legal",
+      "pauper": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{5}",
+    "name": "Adarkar Sentinel",
+    "power": "3",
+    "printings": [
+      "ICE",
+      "ME2"
+    ],
+    "rulings": [],
+    "scryfallIllustrationId": "dbfa1e5e-f246-4d1a-9c12-14d2a881c32b",
+    "scryfallOracleId": "bd372a53-48f9-4e9a-ab00-0f9c4606d452",
+    "subtypes": [
+      "Soldier"
+    ],
+    "supertypes": [],
+    "text": "{1}: Adarkar Sentinel gets +0/+1 until end of turn.",
+    "toughness": "3",
+    "type": "Artifact Creature — Soldier",
+    "types": [
+      "Artifact",
+      "Creature"
+    ],
+    "uuid": "32b287ae-5ac1-5166-920b-64fd5bfdd50b",
+    "uuidV421": "6239da78-2818-58c2-aed8-5404ee9ae03d"
+  },
+  "Adarkar Unicorn": {
+    "colorIdentity": [
+      "U",
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "convertedManaCost": 3.0,
+    "foreignData": [
+      {
+        "language": "German",
+        "name": "Adarkareinhorn",
+        "text": "{T}: Erhöhe Deinen Manavorrat entweder um {U} oder {U} und ein farbloses Mana.\nDieses Mana kann nur für kumulative Versorgung benutzt werden. Spiele diese Fähigkeit wie einen Unterbrechungszauber",
+        "type": "Beschwörung eines Einhorns"
+      },
+      {
+        "language": "Spanish",
+        "name": "Unicornio de Adarkar"
+      },
+      {
+        "language": "French",
+        "name": "Licorne adarkare"
+      },
+      {
+        "language": "Italian",
+        "name": "Unicorno dell'Adarkar"
+      },
+      {
+        "language": "Portuguese (Brazil)",
+        "name": "Unicórnio de Adarkar"
+      }
+    ],
+    "layout": "normal",
+    "legalities": {
+      "commander": "Legal",
+      "duel": "Legal",
+      "legacy": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{1}{W}{W}",
+    "name": "Adarkar Unicorn",
+    "power": "2",
+    "printings": [
+      "ICE"
+    ],
+    "rulings": [],
+    "scryfallIllustrationId": "7fd4243b-6ea0-4b7a-b21e-f15c4e510310",
+    "scryfallOracleId": "287cd5e8-51e2-42a4-a139-c112ff89706d",
+    "subtypes": [
+      "Unicorn"
+    ],
+    "supertypes": [],
+    "tcgplayerProductId": 4577,
+    "tcgplayerPurchaseUrl": "https://mtgjson.com/links/440f780c6a06853d",
+    "text": "{T}: Add {U} or {C}{U}. Spend this mana only to pay cumulative upkeep costs.",
+    "toughness": "2",
+    "type": "Creature — Unicorn",
+    "types": [
+      "Creature"
+    ],
+    "uuid": "388596e7-6d48-5525-b62d-fab486084c59",
+    "uuidV421": "e8a99996-c186-582f-8a3c-36d2f4968a5d"
+  },
+  "Adarkar Valkyrie": {
+    "colorIdentity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "convertedManaCost": 6.0,
+    "foreignData": [
+      {
+        "flavorText": "Anstatt die Gestorbenen in das Land der Toten zu eskortieren, erweckt sie sie wieder zum Leben, Kämpfen und erneutem Sterben.",
+        "language": "German",
+        "name": "Adarkarwalküre",
+        "text": "Fliegend, Wachsamkeit\n{T}: Wenn eine Kreatur deiner Wahl außer der Adarkarwalküre in diesem Zug auf einen Friedhof gelegt wird, bringe diese Karte unter deiner Kontrolle zurück ins Spiel.",
+        "type": "Verschneite Kreatur — Engel"
+      },
+      {
+        "flavorText": "Ella no escolta a los muertos al más allá, sino que los resucita para que luchen y mueran de nuevo.",
+        "language": "Spanish",
+        "name": "Valkiria de Adarkar",
+        "text": "Vuela, vigilancia.\n{T}: Cuando la criatura objetivo que no sea la Valkiria de Adarkar vaya a un cementerio este turno, regresa al juego esa carta bajo tu control.",
+        "type": "Criatura nevada — Ángel"
+      },
+      {
+        "flavorText": "Elle n'escorte pas les morts dans l'après-vie ; elle les ressuscite pour combattre et mourir à nouveau.",
+        "language": "French",
+        "name": "Valkyrie d'Adarkar",
+        "text": "Vol, vigilance\n{T} : Quand une créature ciblée autre que la Valkyrie d'Adarkar est mise dans un cimetière ce tour-ci, renvoyez en jeu cette carte sous votre contrôle.",
+        "type": "Créature neigeuse : ange"
+      },
+      {
+        "flavorText": "Non accompagna i morti nell'oltretomba, ma li risuscita per farli combattere e morire ancora.",
+        "language": "Italian",
+        "name": "Valchiria dell'Adarkar",
+        "text": "Volare, cautela\n{T}: Quando una creatura bersaglio diversa dalla Valchiria dell'Adarkar viene messa in un cimitero in questo turno, rimetti in gioco quella carta sotto il tuo controllo.",
+        "type": "Creatura Neve — Angelo"
+      },
+      {
+        "flavorText": "彼女は死者を天国へと導くことはしない。蘇らせて戦わせ、再び死へと導くのだ。",
+        "language": "Japanese",
+        "name": "アダーカーの戦乙女",
+        "text": "飛行、警戒\n{T}：アダーカーの戦乙女以外のクリーチャー１体を対象とする。このターン、それがいずれかの墓地に置かれたとき、そのカードをあなたのコントロール下で場に戻す。",
+        "type": "氷雪クリーチャー — 天使"
+      },
+      {
+        "flavorText": "Ela não acompanha os mortos à vida após a morte, mas os levanta para que lutem e morram novamente.",
+        "language": "Portuguese (Brazil)",
+        "name": "Valquíria de Adarkar",
+        "text": "Voar, vigilância\n{T}: Quando uma criatura alvo que não seja Valquíria de Adarkar for colocada num cemitério neste turno, devolva aquele card ao jogo sob seu controle.",
+        "type": "Criatura da Neve — Anjo"
+      },
+      {
+        "flavorText": "Она не сопровождает мертвых в загробный мир. Вместо этого она возрождает их, чтобы снова биться и снова умирать.",
+        "language": "Russian",
+        "name": "Адаркарская валькирия",
+        "text": "Полет, Бдительность\n{T}: Когда другое целевое существо, не Адаркарская валькирия, попадает в этот ход на кладбище, верните эту карту в игру под вашим контролем.",
+        "type": "Снежное существо — Ангел"
+      },
+      {
+        "flavorText": "她的使命并非护送亡者通往来生，而是令他们起身赴战、再度丧命。",
+        "language": "Chinese Simplified",
+        "name": "阿达卡女武神",
+        "text": "飞行，警戒\n{T}：当阿达卡女武神以外的目标生物于本回合中置入任一坟墓场时，将该牌在你的操控下移回场上。",
+        "type": "雪境生物～天使"
+      }
+    ],
+    "layout": "normal",
+    "legalities": {
+      "commander": "Legal",
+      "duel": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "penny": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{4}{W}{W}",
+    "name": "Adarkar Valkyrie",
+    "power": "4",
+    "printings": [
+      "C14",
+      "C18",
+      "CSP",
+      "MMA"
+    ],
+    "rulings": [
+      {
+        "date": "2006-07-15",
+        "text": "Adarkar Valkyrie’s ability can target a token creature, but since token creatures cease to exist when they leave the battlefield, it won’t be returned to the battlefield."
+      }
+    ],
+    "scryfallIllustrationId": "38e87a97-3b87-4ebf-99e4-b52c69981009",
+    "scryfallOracleId": "2932baae-bdf1-455a-9ac4-23ba1f83e7e1",
+    "subtypes": [
+      "Angel"
+    ],
+    "supertypes": [
+      "Snow"
+    ],
+    "tcgplayerProductId": 13995,
+    "tcgplayerPurchaseUrl": "https://mtgjson.com/links/f19c99fbe5a83563",
+    "text": "Flying, vigilance\n{T}: When target creature other than Adarkar Valkyrie dies this turn, return that card to the battlefield under your control.",
+    "toughness": "5",
+    "type": "Snow Creature — Angel",
+    "types": [
+      "Creature"
+    ],
+    "uuid": "15b6d1b4-4abe-526a-9858-05a9128d3597",
+    "uuidV421": "61f3603b-cd3f-5fe7-ba27-aa05611c9269"
+  },
+  "Adarkar Wastes": {
+    "colorIdentity": [
+      "U",
+      "W"
+    ],
+    "colors": [],
+    "convertedManaCost": 0.0,
+    "foreignData": [],
+    "layout": "normal",
+    "legalities": {
+      "commander": "Legal",
+      "duel": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "vintage": "Legal"
+    },
+    "name": "Adarkar Wastes",
+    "printings": [
+      "10E",
+      "5ED",
+      "6ED",
+      "7ED",
+      "9ED",
+      "ICE",
+      "PTC",
+      "WC00"
+    ],
+    "rulings": [],
+    "scryfallIllustrationId": "8730539c-de53-4913-b1e6-6f96bbacb88d",
+    "scryfallOracleId": "d5ad26cc-2bdb-46b7-b8bf-dd099d5fa09b",
+    "subtypes": [],
+    "supertypes": [],
+    "text": "{T}: Add {C}.\n{T}: Add {W} or {U}. Adarkar Wastes deals 1 damage to you.",
+    "type": "Land",
+    "types": [
+      "Land"
+    ],
+    "uuid": "9525c3c6-d3fe-5201-829c-db3d2109301d",
+    "uuidV421": "070b523f-c8d3-519f-b992-68529e8d239c"
+  },
+  "Adarkar Windform": {
+    "colorIdentity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "convertedManaCost": 5.0,
+    "foreignData": [
+      {
+        "flavorText": "Auf Terisiare gibt es nur zwei Arten Wetter: kaltes und seltsames.",
+        "language": "German",
+        "name": "Adarkarwindgestalt",
+        "text": "Fliegend\n{1}{S}: Eine Kreatur deiner Wahl verliert Flugfähigkeit bis zum Ende des Zuges. ({S} kann mit einem Mana von einer verschneiten Karte bezahlt werden.)",
+        "type": "Verschneite Kreatur — Illusion"
+      },
+      {
+        "flavorText": "Terisiare sólo tiene dos tipos de clima: frío y extraño.",
+        "language": "Spanish",
+        "name": "Eolomorfo de Adarkar",
+        "text": "Vuela.\n{1}{S}: La criatura objetivo pierde la habilidad de volar hasta el final del turno. ({S} puede pagarse con un maná de un permanente nevado.)",
+        "type": "Criatura nevada — Ilusión"
+      },
+      {
+        "flavorText": "Terisiare n'a que deux types de climats : froid et étrange.",
+        "language": "French",
+        "name": "Venteforme d'Adarkar",
+        "text": "Vol\n{1}{S} : La créature ciblée perd le vol jusqu'à la fin du tour. ({S} peut être payé avec un mana d'un permanent neigeux.)",
+        "type": "Créature neigeuse : illusion"
+      },
+      {
+        "flavorText": "Terisiare conosce solo due tipi di clima: quello freddo e quello arcano.",
+        "language": "Italian",
+        "name": "Ventiforme dell'Adarkar",
+        "text": "Volare\n{1}{S}: La creatura bersaglio perde volare fino alla fine del turno. ({S} può essere pagato con un mana da un permanente neve.)",
+        "type": "Creatura Neve — Illusione"
+      },
+      {
+        "flavorText": "テリシアの天候は二種類しかない。極寒と、異様だ。",
+        "language": "Japanese",
+        "name": "アダーカーの風精",
+        "text": "飛行\n{1}{S}：クリーチャー１体を対象とする。それはターン終了時まで飛行を失う。 （{S}は氷雪パーマネントからのマナ１点で支払える。）",
+        "type": "氷雪クリーチャー — イリュージョン"
+      },
+      {
+        "flavorText": "Terisiare tem apenas dois tipos de clima: frio e estranho.",
+        "language": "Portuguese (Brazil)",
+        "name": "Pé-de-Vento de Adarkar",
+        "text": "Voar\n{1}{S}: A criatura alvo perde a habilidade de voar até o final do turno. ({S} pode ser pago com um mana de uma permanente da neve.)",
+        "type": "Criatura da Neve — Ilusão"
+      },
+      {
+        "flavorText": "В Терисиере только два типа погоды: холодная и странная.",
+        "language": "Russian",
+        "name": "Адаркарская ветровица",
+        "text": "Полет\n{1}{S}: Целевое существо теряет Полет до конца хода. (За {S} можно заплатить 1 ману от снежного перманента.)",
+        "type": "Снежное существо — Иллюзия"
+      },
+      {
+        "flavorText": "泰瑞西亚只有两种天气：冷天气与怪天气。",
+        "language": "Chinese Simplified",
+        "name": "阿达卡风影",
+        "text": "飞行\n{1}{S}：目标生物失去飞行异能直到回合结束。 （{S}能以产自雪境永久物的一点法术力来支付。）",
+        "type": "雪境生物～虚影"
+      }
+    ],
+    "layout": "normal",
+    "legalities": {
+      "commander": "Legal",
+      "duel": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{4}{U}",
+    "name": "Adarkar Windform",
+    "power": "3",
+    "printings": [
+      "CSP"
+    ],
+    "rulings": [],
+    "scryfallIllustrationId": "cb6a6a62-60d0-47f4-94d3-58e9ffbde31b",
+    "scryfallOracleId": "dd66b8ab-14a9-455b-98f6-5356df72a522",
+    "subtypes": [
+      "Illusion"
+    ],
+    "supertypes": [
+      "Snow"
+    ],
+    "tcgplayerProductId": 13996,
+    "tcgplayerPurchaseUrl": "https://mtgjson.com/links/f0310349545db3fc",
+    "text": "Flying\n{1}{S}: Target creature loses flying until end of turn. ({S} can be paid with one mana from a snow permanent.)",
+    "toughness": "3",
+    "type": "Snow Creature — Illusion",
+    "types": [
+      "Creature"
+    ],
+    "uuid": "adcf13f5-7650-5e4d-ac63-e44c07440423",
+    "uuidV421": "0606ad2d-db76-5a17-a3a8-ac7177367d54"
+  },
+  "Adder-Staff Boggart": {
+    "colorIdentity": [
+      "R"
+    ],
+    "colors": [
+      "R"
+    ],
+    "convertedManaCost": 2.0,
+    "foreignData": [
+      {
+        "language": "German",
+        "name": "Natternstab-Boggart",
+        "text": "Wenn der Natternstab-Boggart ins Spiel kommt, befehde dich mit einem Gegner. Falls du die Fehde gewinnst, lege eine +1/+1-Marke auf den Natternstab-Boggart. (Jeder Spieler in einer Fehde deckt die oberste Karte seiner Bibliothek auf und legt diese Karte dann auf oder unter seine Bibliothek. Ein Spieler gewinnt die Fehde, wenn seine Karte die höheren umgewandelten Manakosten hat.)",
+        "type": "Kreatur — Goblin, Krieger"
+      },
+      {
+        "language": "Spanish",
+        "name": "Boggart vara de culebra",
+        "text": "Cuando el Boggart vara de culebra entre en juego, enfréntate con un oponente. Si ganas, pon un contador +1/+1 sobre el Boggart vara de culebra. (Cada jugador enfrentado muestra la primera carta de su biblioteca, luego pone esa carta en la parte superior o inferior. Gana el jugador cuya carta tenga el mayor coste de maná convertido.)",
+        "type": "Criatura — Guerrero trasgo"
+      },
+      {
+        "language": "French",
+        "name": "Boggart au bâton vipérin",
+        "text": "Quand le Boggart au bâton vipérin arrive en jeu, confrontez un adversaire. Si vous gagnez, mettez un marqueur +1/+1 sur le Boggart au bâton vipérin. (Chaque joueur impliqué dans la confrontation révèle la carte du dessus de sa bibliothèque et met ensuite cette carte au-dessus ou au-dessous de celle-ci. Un joueur gagne si sa carte a un coût converti de mana plus élevé.)",
+        "type": "Créature : gobelin et guerrier"
+      },
+      {
+        "language": "Italian",
+        "name": "Boggart col Bastone Vipera",
+        "text": "Quando il Boggart col Bastone Vipera entra in gioco, scontrati con un avversario. Se vinci, metti un segnalino +1/+1 sul Boggart col Bastone Vipera. (Ogni giocatore che si scontra rivela la prima carta del suo grimorio, poi la mette in cima o in fondo. Un giocatore vince se la sua carta aveva un costo di mana convertito maggiore.)",
+        "type": "Creatura — Guerriero Goblin"
+      },
+      {
+        "language": "Japanese",
+        "name": "マムシ杖のボガート",
+        "text": "マムシ杖のボガートが場に出たとき、いずれかの対戦相手と激突を行う。 あなたが勝った場合、マムシ杖のボガートの上に＋１/＋１カウンターを１個置く。 （激突を行う各プレイヤーは、自分のライブラリーの一番上のカードを公開し、そのカードを一番上か一番下に置く。 自分のカードの点数で見たマナ・コストの方が大きいプレイヤーが勝つ。）",
+        "type": "クリーチャー — ゴブリン・戦士"
+      },
+      {
+        "language": "Portuguese (Brazil)",
+        "name": "Papão Cajado de Víbora",
+        "text": "Quando Papão Cajado de Víbora entrar em jogo, confronte um oponente. Se você vencer, coloque um marcador +1/+1 sobre Papão Cajado de Víbora. (Cada jogador confrontante revela o card do topo de seu próprio grimório, e então coloca aquele card no topo ou no fundo deste. Vence o jogador que tiver o card com o maior custo de mana convertido.)",
+        "type": "Criatura — Goblin Guerreiro"
+      },
+      {
+        "language": "Russian",
+        "name": "Боггарт с Гадючим Посохом",
+        "text": "Когда Боггарт с Гадючим Посохом входит в игру, столкнитесь с оппонентом. Если вы выиграли, положите жетон +1/+1 на Боггарта с Гадючим Посохом. (Каждый сталкивающийся игрок показывает верхнюю карту своей библиотеки, затем кладет ту карту на верх или в низ своей библиотеки. Выигрывает тот игрок, чья карта имела большую конвертированную мана-стоимость.)",
+        "type": "Существо — Гоблин Воин"
+      },
+      {
+        "language": "Chinese Simplified",
+        "name": "蛇杖波尬",
+        "text": "当蛇杖波尬进场时，与一位对手比点。 若你赢，则在蛇杖波尬上放置一个+1/+1指示物。 （参与比点的牌手各展示其牌库顶牌，然后将该牌置于牌库顶部或底部。 所展示的牌之总法术力费用比较高的牌手赢得比点。）",
+        "type": "生物～精灵／战士"
+      }
+    ],
+    "layout": "normal",
+    "legalities": {
+      "commander": "Legal",
+      "duel": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "pauper": "Legal",
+      "penny": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{1}{R}",
+    "name": "Adder-Staff Boggart",
+    "power": "2",
+    "printings": [
+      "LRW"
+    ],
+    "rulings": [],
+    "scryfallIllustrationId": "bac7973e-705e-4704-abcb-af47a3226d0a",
+    "scryfallOracleId": "c95e75fb-2bf2-431c-b7ca-d84236bffe5c",
+    "subtypes": [
+      "Goblin",
+      "Warrior"
+    ],
+    "supertypes": [],
+    "tcgplayerProductId": 15406,
+    "tcgplayerPurchaseUrl": "https://mtgjson.com/links/5610dde655a46271",
+    "text": "When Adder-Staff Boggart enters the battlefield, clash with an opponent. If you win, put a +1/+1 counter on Adder-Staff Boggart. (Each clashing player reveals the top card of their library, then puts that card on the top or bottom. A player wins if their card had a higher converted mana cost.)",
+    "toughness": "1",
+    "type": "Creature — Goblin Warrior",
+    "types": [
+      "Creature"
+    ],
+    "uuid": "4b6c629d-2acc-54ac-bf49-788b393665c7",
+    "uuidV421": "4aa8347b-6061-5393-b111-f12c7dd67f7e"
+  },
+  "Addle": {
+    "colorIdentity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "convertedManaCost": 2.0,
+    "foreignData": [
+      {
+        "flavorText": "„Ich werde Dein schwächliches Hirn wie einen Schwamm auswringen.\" —Urborghexe",
+        "language": "German",
+        "name": "Verdutzen",
+        "text": "Bestimme eine Farbe. Schau Dir die Karten auf der Hand eines Spielers Deiner Wahl an und bestimme eine Karte dieser Farbe. Dieser Spieler wirft diese Karte ab.",
+        "type": "Hexerei"
+      },
+      {
+        "language": "Spanish",
+        "name": "Turbar"
+      },
+      {
+        "flavorText": "« J'essorerais ton minuscule cerveau comme une éponge. » — Une sorcière d'Urborg.",
+        "language": "French",
+        "name": "Pourrissement",
+        "text": "Choisissez une couleur. Regardez la main du joueur ciblé et choisissez-y une carte de cette couleur. Ce joueur se défausse de cette carte.",
+        "type": "Rituel"
+      },
+      {
+        "language": "Italian",
+        "name": "Confondere"
+      },
+      {
+        "language": "Portuguese (Brazil)",
+        "name": "Aturdir"
+      }
+    ],
+    "layout": "normal",
+    "legalities": {
+      "commander": "Legal",
+      "duel": "Legal",
+      "legacy": "Legal",
+      "pauper": "Legal",
+      "penny": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{1}{B}",
+    "name": "Addle",
+    "printings": [
+      "INV",
+      "VMA",
+      "WC01"
+    ],
+    "rulings": [],
+    "scryfallIllustrationId": "2169f318-5404-40c8-8d2c-ad98a34e7a8b",
+    "scryfallOracleId": "3745aea4-4455-4859-9772-bcfd14e4067b",
+    "subtypes": [],
+    "supertypes": [],
+    "tcgplayerProductId": 7408,
+    "tcgplayerPurchaseUrl": "https://mtgjson.com/links/af598ae6250c515b",
+    "text": "Choose a color. Target player reveals their hand and you choose a card of that color from it. That player discards that card.",
+    "type": "Sorcery",
+    "types": [
+      "Sorcery"
+    ],
+    "uuid": "45cdff48-66b0-55d6-bdd1-7f94ea6eefc7",
+    "uuidV421": "e27e6b94-d9ea-5e95-87f4-eaea34981fb5"
+  },
+  "Adeliz, the Cinder Wind": {
+    "colorIdentity": [
+      "R",
+      "U"
+    ],
+    "colors": [
+      "R",
+      "U"
+    ],
+    "convertedManaCost": 3.0,
+    "foreignData": [],
+    "layout": "normal",
+    "legalities": {
+      "commander": "Legal",
+      "duel": "Legal",
+      "frontier": "Legal",
+      "future": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "penny": "Legal",
+      "standard": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{1}{U}{R}",
+    "name": "Adeliz, the Cinder Wind",
+    "power": "2",
+    "printings": [
+      "DOM",
+      "PDOM"
+    ],
+    "rulings": [
+      {
+        "date": "2018-04-27",
+        "text": "Adeliz’s last ability affects only Wizards you control at the time it resolves, including Adeliz itself. Creatures you begin to control later in the turn or that become Wizards later in the turn won’t get +1/+1."
+      },
+      {
+        "date": "2018-04-27",
+        "text": "Adeliz’s last ability resolves before the spell that caused it to trigger. It resolves even if that spell is countered."
+      }
+    ],
+    "scryfallIllustrationId": "e59dda06-05d8-42cb-9db8-f84628f9547d",
+    "scryfallOracleId": "850eb3c3-029b-49b0-91a9-6daeb1b3a9e8",
+    "subtypes": [
+      "Human",
+      "Wizard"
+    ],
+    "supertypes": [
+      "Legendary"
+    ],
+    "text": "Flying, haste\nWhenever you cast an instant or sorcery spell, Wizards you control get +1/+1 until end of turn.",
+    "toughness": "2",
+    "type": "Legendary Creature — Human Wizard",
+    "types": [
+      "Creature"
+    ],
+    "uuid": "a536ddf6-59d4-5708-9ad2-dba3ffdcd7cd",
+    "uuidV421": "aafebda0-ce92-5d63-bf24-c7c982de4442"
+  },
+  "Admiral Beckett Brass": {
+    "colorIdentity": [
+      "B",
+      "R",
+      "U"
+    ],
+    "colors": [
+      "B",
+      "R",
+      "U"
+    ],
+    "convertedManaCost": 4.0,
+    "foreignData": [],
+    "layout": "normal",
+    "legalities": {
+      "commander": "Legal",
+      "duel": "Legal",
+      "frontier": "Legal",
+      "future": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "standard": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{1}{U}{B}{R}",
+    "name": "Admiral Beckett Brass",
+    "power": "3",
+    "printings": [
+      "PXLN",
+      "XLN"
+    ],
+    "rulings": [
+      {
+        "date": "2017-09-29",
+        "text": "Admiral Beckett Brass’s triggered ability checks what happened earlier in the turn. It doesn’t care whether Admiral Beckett Brass was on the battlefield when those Pirates dealt combat damage, whether those creatures are still on the battlefield, or whether they’re still Pirates."
+      },
+      {
+        "date": "2017-09-29",
+        "text": "If one Pirate deals combat damage multiple times, most likely because it has double strike, it counts as only one of the three Pirates for Admiral Beckett Brass’s triggered ability."
+      },
+      {
+        "date": "2017-09-29",
+        "text": "If more than one player was dealt combat damage by three Pirates, you target only one permanent. It may be controlled by either of those players."
+      },
+      {
+        "date": "2017-09-29",
+        "text": "The control-change effect of Admiral Beckett Brass’s triggered ability lasts indefinitely. It doesn’t wear off during the cleanup step or when you lose control of Admiral Beckett Brass."
+      },
+      {
+        "date": "2017-09-29",
+        "text": "In a multiplayer game, if a player leaves the game, all cards that player owns leave as well, and any effects that give the player control of permanents immediately end."
+      },
+      {
+        "date": "2017-09-29",
+        "text": "In a Two-Headed Giant game, combat damage dealt by Pirates your teammate controls will count when checking for Admiral Beckett Brass’s ability."
+      }
+    ],
+    "scryfallIllustrationId": "8590b2be-8a63-4221-a043-d6b40fd2bc91",
+    "scryfallOracleId": "43b5e462-d860-473d-828f-6c513fc7768a",
+    "subtypes": [
+      "Human",
+      "Pirate"
+    ],
+    "supertypes": [
+      "Legendary"
+    ],
+    "tcgplayerProductId": 146051,
+    "text": "Other Pirates you control get +1/+1.\nAt the beginning of your end step, gain control of target nonland permanent controlled by a player who was dealt combat damage by three or more Pirates this turn.",
+    "toughness": "3",
+    "type": "Legendary Creature — Human Pirate",
+    "types": [
+      "Creature"
+    ],
+    "uuid": "0870720f-066d-5cf8-a411-eeaaabdffd35",
+    "uuidV421": "2dbeeaa8-b768-5c44-95d7-e13b421fce68"
+  },
+  "Admiral's Order": {
+    "colorIdentity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "convertedManaCost": 3.0,
+    "foreignData": [],
+    "layout": "normal",
+    "legalities": {
+      "commander": "Legal",
+      "duel": "Legal",
+      "frontier": "Legal",
+      "future": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "penny": "Legal",
+      "standard": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{1}{U}{U}",
+    "name": "Admiral's Order",
+    "printings": [
+      "PRIX",
+      "RIX"
+    ],
+    "rulings": [
+      {
+        "date": "2018-01-19",
+        "text": "Raid abilities care only that you attacked with a creature. It doesn’t matter how many creatures you attacked with, or which opponent or planeswalker controlled by an opponent those creatures attacked."
+      },
+      {
+        "date": "2018-01-19",
+        "text": "Raid abilities evaluate the entire turn to see if you attacked with a creature. That creature doesn’t have to still be on the battlefield. Similarly, the player or planeswalker it attacked doesn’t have to still be in the game or on the battlefield, respectively."
+      }
+    ],
+    "scryfallIllustrationId": "f7c1a3b3-57ee-4ba7-a2a0-c5928630e072",
+    "scryfallOracleId": "ae4fe5e0-408d-4398-84d7-a901b836df2a",
+    "subtypes": [],
+    "supertypes": [],
+    "tcgplayerProductId": 155923,
+    "text": "Raid — If you attacked with a creature this turn, you may pay {U} rather than pay this spell's mana cost.\nCounter target spell.",
+    "type": "Instant",
+    "types": [
+      "Instant"
+    ],
+    "uuid": "5e9750cf-fc10-53fc-8518-e322a985990e",
+    "uuidV421": "489942ab-da1e-510b-8c8d-187a8d137764"
+  },
+  "Admonition Angel": {
+    "colorIdentity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "convertedManaCost": 6.0,
+    "foreignData": [
+      {
+        "language": "German",
+        "name": "Mahnender Engel",
+        "text": "Fliegend\nLandung — Immer wenn ein Land unter deiner Kontrolle ins Spiel kommt, kannst du eine bleibende Karte deiner Wahl, die kein Land und nicht der Mahnende Engel ist, ins Exil schicken.\nWenn der Mahnende Engel das Spiel verlässt, bringe alle Karten, die durch ihn ins Exil geschickt wurden, unter der Kontrolle ihrer Besitzer ins Spiel zurück.",
+        "type": "Kreatur — Engel"
+      },
+      {
+        "language": "Spanish",
+        "name": "Ángel de admonición",
+        "text": "Vuela.\nAterrizaje — Siempre que una tierra entre al campo de batalla bajo tu control, puedes exiliar el permanente objetivo que no sea tierra distinto del Ángel de admonición.\nCuando el Ángel de admonición deje el campo de batalla, regresa al campo de batalla bajo el control de sus propietarios todas las cartas exiliadas con él.",
+        "type": "Criatura — Ángel"
+      },
+      {
+        "language": "French",
+        "name": "Ange de l'admonition",
+        "text": "Vol\nToucheterre — À chaque fois qu'un terrain arrive sur le champ de bataille sous votre contrôle, vous pouvez exiler un permanent non-terrain ciblé autre que l'Ange de l'admonition.\nQuand l'Ange de l'admonition quitte le champ de bataille, renvoyez sur le champ de bataille, sous le contrôle de leurs propriétaires, toutes les cartes qu'il a exilées.",
+        "type": "Créature : ange"
+      },
+      {
+        "language": "Italian",
+        "name": "Angelo del Monito",
+        "text": "Volare\nTerraferma — Ogniqualvolta una terra entra nel campo di battaglia sotto il tuo controllo, puoi esiliare un permanente non terra bersaglio diverso dall'Angelo del Monito.\nQuando l'Angelo del Monito lascia il campo di battaglia, rimetti sul campo di battaglia tutte le carte esiliate da esso sotto il controllo dei rispettivi proprietari.",
+        "type": "Creatura — Angelo"
+      },
+      {
+        "language": "Japanese",
+        "name": "忠告の天使",
+        "text": "飛行\n上陸 ― 土地が１つあなたのコントロール下で戦場に出るたび、忠告の天使以外の土地でないパーマネント１つを対象とする。あなたはそれを追放してもよい。\n忠告の天使が戦場を離れたとき、それにより追放されたすべてのカードをオーナーのコントロール下で場に戻す。",
+        "type": "クリーチャー — 天使"
+      },
+      {
+        "language": "Portuguese (Brazil)",
+        "name": "Anjo da Admonição",
+        "text": "Voar\nAterragem — Toda vez que um terreno entra no campo de batalha sob o seu controle, você pode exilar a permanente alvo que não seja um terreno e que não seja Anjo da Admonição.\nQuando Anjo da Admonição deixar o campo de batalha, devolva todos os cards exilados com ele ao campo de batalha sob o controle de seus donos.",
+        "type": "Criatura — Anjo"
+      },
+      {
+        "language": "Russian",
+        "name": "Ангел Предостережения",
+        "text": "Полет\nЗемлепад — Каждый раз когда земля выходит на поле битвы под вашим контролем, вы можете изгнать целевой не являющийся землей перманент, отличный от Ангела Предостережения.\nКогда Ангел Предостережения покидает поле битвы, верните все изгнанные им карты на поле битвы под контролем их владельцев.",
+        "type": "Существо — Ангел"
+      },
+      {
+        "language": "Chinese Simplified",
+        "name": "告诫天使",
+        "text": "飞行\n地落～每当一个地在你的操控下进战场时，你可以放逐告诫天使之外的目标非地永久物。\n当告诫天使离开战场时，将所有被它放逐的牌分别在其拥有者之操控下移回战场。",
+        "type": "生物～天使"
+      }
+    ],
+    "layout": "normal",
+    "legalities": {
+      "commander": "Legal",
+      "duel": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{3}{W}{W}{W}",
+    "name": "Admonition Angel",
+    "power": "6",
+    "printings": [
+      "WWK"
+    ],
+    "rulings": [
+      {
+        "date": "2010-03-01",
+        "text": "The landfall ability triggers whenever a land enters the battlefield under your control for any reason. It triggers whenever you play a land, as well as whenever a spell or ability (such as Rampant Growth) causes you to put a land onto the battlefield under your control. It will even trigger when a spell or ability causes another player to put a land onto the battlefield under your control (as can happen with Yavimaya Dryad’s ability, for example)."
+      },
+      {
+        "date": "2010-03-01",
+        "text": "When a land enters the battlefield under your control, each landfall ability of the permanents you control will trigger. You can put them on the stack in any order. The last ability you put on the stack will be the first one that resolves."
+      },
+      {
+        "date": "2010-03-01",
+        "text": "Admonition Angel’s landfall ability and its last ability are linked. The last ability refers only to cards exiled with its landfall ability."
+      },
+      {
+        "date": "2010-03-01",
+        "text": "If Admonition Angel’s landfall ability triggers, but the Angel leaves the battlefield before it resolves, its last ability will trigger and resolve first. All previously exiled cards will be returned to the battlefield. Then the landfall ability will resolve and exile the targeted permanent forever."
+      }
+    ],
+    "scryfallIllustrationId": "27688751-6ccc-4a1f-b892-3e45a6e76274",
+    "scryfallOracleId": "78a7bb30-fc60-410c-b086-862b5521c1aa",
+    "subtypes": [
+      "Angel"
+    ],
+    "supertypes": [],
+    "tcgplayerProductId": 34324,
+    "tcgplayerPurchaseUrl": "https://mtgjson.com/links/c4fe1e1220b81f76",
+    "text": "Flying\nLandfall — Whenever a land enters the battlefield under your control, you may exile target nonland permanent other than Admonition Angel.\nWhen Admonition Angel leaves the battlefield, return all cards exiled with it to the battlefield under their owners' control.",
+    "toughness": "6",
+    "type": "Creature — Angel",
+    "types": [
+      "Creature"
+    ],
+    "uuid": "8f807d08-404b-53c3-ba01-5419d2d3c024",
+    "uuidV421": "7aeb3ae0-f238-5a05-9c20-f8e6ec038eaa"
+  },
+  "Adorable Kitten": {
+    "colorIdentity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "convertedManaCost": 1.0,
+    "foreignData": [],
+    "layout": "host",
+    "legalities": {},
+    "manaCost": "{W}",
+    "name": "Adorable Kitten",
+    "power": "1",
+    "printings": [
+      "UST"
+    ],
+    "rulings": [
+      {
+        "date": "2018-01-19",
+        "text": "Host creatures each have an ability that triggers when it enters the battlefield. It functions like any other creature."
+      }
+    ],
+    "scryfallIllustrationId": "1f485137-7768-4832-b917-d0cbec57639e",
+    "scryfallOracleId": "748d5353-b66c-4d7a-8c55-0d28fefb1e2a",
+    "subtypes": [
+      "Cat"
+    ],
+    "supertypes": [
+      "Host"
+    ],
+    "tcgplayerProductId": 152648,
+    "tcgplayerPurchaseUrl": "https://mtgjson.com/links/447144ea1b4f9c7f",
+    "text": "When this creature enters the battlefield, roll a six-sided die. You gain life equal to the result.",
+    "toughness": "1",
+    "type": "Host Creature — Cat",
+    "types": [
+      "Creature"
+    ],
+    "uuid": "e087d2a8-b587-5179-8e74-6c90b0c50d41",
+    "uuidV421": "42e7023a-178b-5ff2-846f-8eae899aaa8f"
+  },
+  "Adorned Pouncer": {
+    "colorIdentity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "convertedManaCost": 2.0,
+    "foreignData": [
+      {
+        "language": "German",
+        "name": "Geschmückte Raubkatze",
+        "text": "Doppelschlag\nVerewigen {3}{W}{W} ({3}{W}{W}, schicke diese Karte aus deinem Friedhof ins Exil: Erzeuge einen Spielstein, der eine Kopie von ihr ist, außer dass er eine 4/4 schwarze Zombie-Katze ohne Manakosten ist. Spiele Verewigen wie eine Hexerei.)",
+        "type": "Kreatur — Katze"
+      },
+      {
+        "language": "Spanish",
+        "name": "Acechador ornamentado",
+        "text": "Daña dos veces.\nEternizar {3}{W}{W}. ({3}{W}{W}, exiliar esta carta de tu cementerio: Crea una ficha que es una copia de esta carta, excepto que es un Felino Zombie negro 4/4 sin coste de maná. Activa la habilidad de eternizar solo como un conjuro.)",
+        "type": "Criatura — Felino"
+      },
+      {
+        "language": "French",
+        "name": "Bondisseur paré",
+        "text": "Double initiative\nÉternalisation {3}{W}{W} ({3}{W}{W}, exilez cette carte de votre cimetière : Créez un jeton qui en est une copie, excepté que c'est un zombie et chat 4/4 noir sans coût de mana. N'utilisez l'éternalisation que lorsque vous pourriez lancer un rituel.)",
+        "type": "Créature : chat"
+      },
+      {
+        "language": "Italian",
+        "name": "Assalitore Ornato",
+        "text": "Doppio attacco\nEternare {3}{W}{W} ({3}{W}{W}, Esilia questa carta dal tuo cimitero: Crea una pedina che è una copia della carta, tranne che è un Felino Zombie 4/4 nero senza costo di mana. Eterna solo quando potresti lanciare una stregoneria.)",
+        "type": "Creatura — Felino"
+      },
+      {
+        "language": "Japanese",
+        "name": "典雅な襲撃者",
+        "text": "二段攻撃\n永遠{3}{W}{W}（{3}{W}{W}, あなたの墓地からこのカードを追放する：マナ・コストを持たない黒の４/４のゾンビ・猫であることを除きこれのコピーであるトークンを１体生成する。永遠はソーサリーとしてのみ行う。）",
+        "type": "クリーチャー — 猫"
+      },
+      {
+        "language": "Korean",
+        "name": "치장한 맹수",
+        "text": "이단공격\n영생화 {3}{W}{W} ({3}{W}{W}, 이 카드를 당신의 무덤에서 추방한다: 이 카드의 복사본이지만 마나 비용이 없는 4/4 흑색 좀비 고양이인 토큰 한 개를 만든다. 당신이 집중마법을 발동할 수 있는 시기에만 영생화를 할 수 있다.)",
+        "type": "생물 — 고양이"
+      },
+      {
+        "language": "Portuguese (Brazil)",
+        "name": "Saltador Adornado",
+        "text": "Golpe duplo\nEternizar {3}{W}{W} ({3}{W}{W}, exile este card de seu cemitério: Crie uma ficha que seja uma cópia dele, com a exceção de ser um Zumbi Felino preto 4/4 sem custo de mana. Eternize somente como um feitiço.)",
+        "type": "Criatura — Felino"
+      },
+      {
+        "language": "Russian",
+        "name": "Украшенная Хищница",
+        "text": "Двойной удар\nУвековечивание {3}{W}{W} ({3}{W}{W}, изгоните эту карту из вашего кладбища: создайте фишку, являющуюся ее копией, но при этом являющуюся черной Зомби Кошкой 4/4 без мана-стоимости. Увековечивайте только как волшебство.)",
+        "type": "Существо — Кошка"
+      },
+      {
+        "language": "Chinese Simplified",
+        "name": "佩饰扑击猫",
+        "text": "连击\n永生{3}{W}{W}（{3}{W}{W}，从你的坟墓场放逐此牌：派出一个衍生物，且为此牌的复制品，但它是4/4黑色灵俑／猫，且没有法术力费用。永生的时机视同法术。）",
+        "type": "生物～猫"
+      },
+      {
+        "language": "Chinese Traditional",
+        "name": "佩飾撲擊貓",
+        "text": "連擊\n永生{3}{W}{W}（{3}{W}{W}，從你的墳墓場放逐此牌：派出一個衍生物，且為此牌的複製品，但它是4/4黑色殭屍／貓，且沒有魔法力費用。永生的時機視同巫術。）",
+        "type": "生物～貓"
+      }
+    ],
+    "layout": "normal",
+    "legalities": {
+      "commander": "Legal",
+      "duel": "Legal",
+      "frontier": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{1}{W}",
+    "name": "Adorned Pouncer",
+    "names": [],
+    "power": "1",
+    "printings": [
+      "HOU",
+      "PHOU",
+      "PRM"
+    ],
+    "rulings": [
+      {
+        "date": "2017-07-14",
+        "text": "For each card with eternalize, a corresponding game play supplement token can be found in some Hour of Devastation booster packs. These supplements are not required to play with cards with eternalize; you can use the same items to represent an eternalized token as you would any other token."
+      },
+      {
+        "date": "2017-07-14",
+        "text": "If a creature card with eternalize is put into your graveyard during your main phase, you’ll have priority immediately afterward. You can activate its eternalize ability before any player can try to exile it, such as with Crook of Condemnation, if it’s legal for you to do so."
+      },
+      {
+        "date": "2017-07-14",
+        "text": "Once you’ve activated an eternalize ability, the card is immediately exiled. Opponents can’t try to stop the ability by exiling the card with an effect such as that of Crook of Condemnation."
+      },
+      {
+        "date": "2017-07-14",
+        "text": "The token copies exactly what was printed on the original card and nothing else, except the characteristics specifically modified by eternalize. It doesn’t copy any information about the object the card was before it was put into your graveyard."
+      },
+      {
+        "date": "2017-07-14",
+        "text": "The token is a Zombie in addition to its other types and is black instead of its other colors. Its base power and toughness are 4/4. It has no mana cost, and thus its converted mana cost is 0. These are copiable values of the token that other effects may copy."
+      }
+    ],
+    "scryfallIllustrationId": "236383a7-2140-4a99-9e6d-0912d20c583f",
+    "scryfallOracleId": "80b8ee3d-4174-4f47-a533-a3db1e703382",
+    "subtypes": [
+      "Cat"
+    ],
+    "supertypes": [],
+    "tcgplayerProductId": 134858,
+    "tcgplayerPurchaseUrl": "https://mtgjson.com/links/c99b22696dac5dc0",
+    "text": "Double strike\nEternalize {3}{W}{W} ({3}{W}{W}, Exile this card from your graveyard: Create a token that's a copy of it, except it's a 4/4 black Zombie Cat with no mana cost. Eternalize only as a sorcery.)",
+    "toughness": "1",
+    "type": "Creature — Cat",
+    "types": [
+      "Creature"
+    ],
+    "uuid": "7a290a84-8bc4-5da4-9140-7828d5152ae4",
+    "uuidV421": "4bd7fc02-28ae-5714-906a-279af906cd03"
+  },
+  "Adriana's Valor": {
+    "colorIdentity": [
+      "W"
+    ],
+    "colors": [],
+    "convertedManaCost": 0.0,
+    "foreignData": [
+      {
+        "language": "Japanese",
+        "name": "アドリアナの武勇",
+        "text": "秘策（この策略を統率領域に裏向きに置いた状態でゲームを始め、秘密裏にカード名１つを指定する。あなたはいつでもこの策略を表向きにして、指定したカードの名前を公表してもよい。）\nあなたがコントロールする指定した名前を持つクリーチャーが１体攻撃するたび、あなたは{W}を支払ってもよい。そうしたなら、ターン終了時まで、そのクリーチャーは破壊不能を得る。（ダメージや「破壊」と書かれた効果では、それは破壊されない。）",
+        "type": "策略"
+      },
+      {
+        "language": "Chinese Simplified",
+        "name": "亚卓安娜之勇",
+        "text": "秘案（开始游戏时将此诡局牌面朝下地置于统帅区，并私下决定一个牌名。你随时可以将此诡局翻回正面并公布该名称。）\n每当一个由你操控且具该名称的生物攻击时，你可以支付{W}。若你如此作，则该生物获得不灭异能直到回合结束。（伤害与注明「消灭」的效应不会将它消灭。）",
+        "type": "诡局"
+      }
+    ],
+    "layout": "normal",
+    "legalities": {
+      "commander": "Banned",
+      "legacy": "Banned",
+      "vintage": "Banned"
+    },
+    "name": "Adriana's Valor",
+    "printings": [
+      "CN2"
+    ],
+    "rulings": [
+      {
+        "date": "2016-08-23",
+        "text": "The last ability triggers once for each creature with the chosen name that attacks. You choose whether to pay {W} as the ability resolves. Notably, someone could respond to the ability and destroy the creature before it gains indestructible."
+      },
+      {
+        "date": "2016-08-23",
+        "text": "Conspiracies are never put into your deck. Instead, you put any number of conspiracies from your card pool into the command zone as the game begins. These conspiracies are face up unless they have hidden agenda, in which case they begin the game face down."
+      },
+      {
+        "date": "2016-08-23",
+        "text": "A conspiracy doesn’t count as a card in your deck for purposes of meeting minimum deck size requirements. (In most drafts, the minimum deck size is 40 cards.)"
+      },
+      {
+        "date": "2016-08-23",
+        "text": "You don’t have to play with any conspiracy you draft. However, you have only one opportunity to put conspiracies into the command zone, as the game begins. You can’t put conspiracies into the command zone after this point."
+      },
+      {
+        "date": "2016-08-23",
+        "text": "You can look at any player’s face-up conspiracies at any time. You’ll also know how many face-down conspiracies a player has in the command zone, although you won’t know what they are."
+      },
+      {
+        "date": "2016-08-23",
+        "text": "A conspiracy’s static and triggered abilities function as long as that conspiracy is face-up in the command zone."
+      },
+      {
+        "date": "2016-08-23",
+        "text": "Conspiracies are colorless, have no mana cost, and can’t be cast as spells."
+      },
+      {
+        "date": "2016-08-23",
+        "text": "Conspiracies aren’t legal for any sanctioned Constructed format, but may be included in other Limited formats, such as Cube Draft."
+      },
+      {
+        "date": "2016-08-23",
+        "text": "You name the card as the game begins, as you put the conspiracy into the command zone, not as you turn the face-down conspiracy face up."
+      },
+      {
+        "date": "2016-08-23",
+        "text": "There are several ways to secretly name a card, including writing the name on a piece of paper that’s kept with the face-down conspiracy. If you have multiple face-down conspiracies, you may name a different card for each one. It’s important that each named card is clearly associated with only one of the conspiracies."
+      },
+      {
+        "date": "2016-08-23",
+        "text": "You must name a Magic card. Notably, you can’t name a token (except in the unusual case that a token’s name matches the name of a card, such as Illusion)."
+      },
+      {
+        "date": "2016-08-23",
+        "text": "If you play multiple games after the draft, you can name a different card in each new game."
+      },
+      {
+        "date": "2016-08-23",
+        "text": "As a special action, you may turn a face-down conspiracy face up. You may do so any time you have priority. This action doesn’t use the stack and can’t be responded to. Once face up, the named card is revealed and the conspiracy’s abilities will affect the game."
+      },
+      {
+        "date": "2016-08-23",
+        "text": "At the end of the game, you must reveal any face-down conspiracies you own in the command zone to all players."
+      },
+      {
+        "date": "2016-08-23",
+        "text": "A conspiracy with hidden agenda that has a triggered ability must be face up before that ability’s trigger condition is met in order for it to trigger. Turning it face up afterward won’t have any effect."
+      },
+      {
+        "date": "2016-08-23",
+        "text": "At the end of the game, you must reveal any face-down conspiracies you own in the command zone to all players. Notably, you can’t bluff conspiracies with hidden agenda by putting other cards into the command zone face down as the game starts."
+      }
+    ],
+    "scryfallIllustrationId": "7d748ba4-32a7-4eb1-922b-0e197709102e",
+    "scryfallOracleId": "512a9ab9-ddd4-4872-b4f4-dee56f9f5575",
+    "subtypes": [],
+    "supertypes": [],
+    "tcgplayerProductId": 121777,
+    "tcgplayerPurchaseUrl": "https://mtgjson.com/links/5ec054c7738ff4e4",
+    "text": "Hidden agenda (Start the game with this conspiracy face down in the command zone and secretly choose a card name. You may turn this conspiracy face up any time and reveal that name.)\nWhenever a creature you control with the chosen name attacks, you may pay {W}. If you do, that creature gains indestructible until end of turn. (Damage and effects that say \"destroy\" don't destroy it.)",
+    "type": "Conspiracy",
+    "types": [
+      "Conspiracy"
+    ],
+    "uuid": "64587696-c610-5ed3-8e3a-0ed89c121ab0",
+    "uuidV421": "a1cf9be9-cf8c-5e77-8ce9-e46558de6de2"
+  },
+  "Adriana, Captain of the Guard": {
+    "colorIdentity": [
+      "R",
+      "W"
+    ],
+    "colors": [
+      "R",
+      "W"
+    ],
+    "convertedManaCost": 5.0,
+    "foreignData": [
+      {
+        "flavorText": "「私はこの剣に掛けてこの都市を護ると誓った。玉座や僭称者ではない。」",
+        "language": "Japanese",
+        "name": "護衛隊長、アドリアナ",
+        "text": "会戦（このクリーチャーが攻撃するたび、ターン終了時まで、これはこの戦闘であなたがクリーチャーで攻撃した対戦相手１人につきそれぞれ＋１/＋１の修整を受ける。）\nあなたがコントロールする他のクリーチャーは会戦を持つ。（あるクリーチャーが複数の会戦を持っているなら、それぞれ誘発する。）",
+        "type": "伝説のクリーチャー — 人間・騎士"
+      },
+      {
+        "flavorText": "「此剑效忠城市而非国王，守卫城池而非逆贼。」",
+        "language": "Chinese Simplified",
+        "name": "侍卫队长亚卓安娜",
+        "text": "乱斗（每当此生物攻击时，本次战斗中每有一位受你以生物攻击的对手，此生物便得+1/+1直到回合结束。）\n由你操控的其他生物具有乱斗异能。（若某生物具有数个乱斗异能，则每一个都会分别触发。）",
+        "type": "传奇生物～人类／骑士"
+      }
+    ],
+    "layout": "normal",
+    "legalities": {
+      "commander": "Legal",
+      "duel": "Legal",
+      "legacy": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{3}{R}{W}",
+    "name": "Adriana, Captain of the Guard",
+    "power": "4",
+    "printings": [
+      "CN2",
+      "PZ2"
+    ],
+    "rulings": [
+      {
+        "date": "2016-08-23",
+        "text": "You determine the size of the bonus as the melee ability resolves. Count each opponent that you attacked with one or more creatures. It doesn’t matter if the attacking creatures are still attacking or even if they are still on the battlefield. It also doesn’t matter if the opponent you attacked is still in the game."
+      },
+      {
+        "date": "2016-08-23",
+        "text": "It doesn’t matter how many creatures you attacked a player with, only that you attacked a player with at least one creature. For example, if you attack one player with Wings of the Guard and another player with five creatures, Wings of the Guard will get +2/+2 until end of turn."
+      },
+      {
+        "date": "2016-08-23",
+        "text": "Melee will trigger if the creature with melee attacks a planeswalker. However, the effect counts only opponents (and not planeswalkers) that you attacked with a creature when determining the bonus."
+      },
+      {
+        "date": "2016-08-23",
+        "text": "Creatures that enter the battlefield attacking were never declared as attackers, so they won’t count toward melee’s effect. Similarly, if a creature with melee enters the battlefield attacking, melee won’t trigger."
+      }
+    ],
+    "scryfallIllustrationId": "62d608ee-0374-452d-b8d4-67fc1948572d",
+    "scryfallOracleId": "de23275e-e9c1-4151-aed8-f79ead03d5d4",
+    "subtypes": [
+      "Human",
+      "Knight"
+    ],
+    "supertypes": [
+      "Legendary"
+    ],
+    "tcgplayerProductId": 121440,
+    "tcgplayerPurchaseUrl": "https://mtgjson.com/links/1b7ab2b12c3a45f5",
+    "text": "Melee (Whenever this creature attacks, it gets +1/+1 until end of turn for each opponent you attacked with a creature this combat.)\nOther creatures you control have melee. (If a creature has multiple instances of melee, each triggers separately.)",
+    "toughness": "4",
+    "type": "Legendary Creature — Human Knight",
+    "types": [
+      "Creature"
+    ],
+    "uuid": "5807d2ea-41b1-53cb-8b26-53c7ff65c53f",
+    "uuidV421": "79083c81-4c8a-5b7d-8916-3c90cd225ee4"
+  },
+  "Adun Oakenshield": {
+    "colorIdentity": [
+      "B",
+      "G",
+      "R"
+    ],
+    "colors": [
+      "B",
+      "G",
+      "R"
+    ],
+    "convertedManaCost": 3.0,
+    "foreignData": [
+      {
+        "language": "Italian",
+        "name": "Adun Oakenshield"
+      }
+    ],
+    "isReserved": true,
+    "layout": "normal",
+    "legalities": {
+      "commander": "Legal",
+      "duel": "Legal",
+      "legacy": "Legal",
+      "oldschool": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{B}{R}{G}",
+    "name": "Adun Oakenshield",
+    "power": "1",
+    "printings": [
+      "LEG",
+      "ME1"
+    ],
+    "rulings": [],
+    "scryfallIllustrationId": "ee6a14bf-2083-4af9-bcf1-82b240ae047d",
+    "scryfallOracleId": "aefd49a4-ecec-42cb-b882-e5db7f81eff8",
+    "subtypes": [
+      "Human",
+      "Knight"
+    ],
+    "supertypes": [
+      "Legendary"
+    ],
+    "tcgplayerProductId": 3786,
+    "tcgplayerPurchaseUrl": "https://mtgjson.com/links/c630fa554a3327d2",
+    "text": "{B}{R}{G}, {T}: Return target creature card from your graveyard to your hand.",
+    "toughness": "2",
+    "type": "Legendary Creature — Human Knight",
+    "types": [
+      "Creature"
+    ],
+    "uuid": "3489dabe-fae6-5bac-9d92-b37f7e0083cc",
+    "uuidV421": "70032b00-09cd-5fb1-9f96-516773a1b562"
+  },
+  "Advance Scout": {
+    "colorIdentity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "convertedManaCost": 2.0,
+    "foreignData": [
+      {
+        "language": "German",
+        "name": "Späher der Vorhut",
+        "text": "Erstschlag\n{W}: Eine Kreatur Deiner Wahl erhält Erstschlag bis zum Ende des Zuges.",
+        "type": "Beschwörung eines Soldaten"
+      },
+      {
+        "language": "Spanish",
+        "name": "Explorador avanzado"
+      },
+      {
+        "language": "French",
+        "name": "Eclaireur avancé"
+      },
+      {
+        "language": "Italian",
+        "name": "Esploratore Avanzato"
+      },
+      {
+        "language": "Portuguese (Brazil)",
+        "name": "Batedor Avançado"
+      }
+    ],
+    "layout": "normal",
+    "legalities": {
+      "commander": "Legal",
+      "duel": "Legal",
+      "legacy": "Legal",
+      "pauper": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{1}{W}",
+    "name": "Advance Scout",
+    "power": "1",
+    "printings": [
+      "BRB",
+      "TMP"
+    ],
+    "rulings": [],
+    "scryfallIllustrationId": "0037fbdc-75a6-4d09-a925-b3719cffcd3c",
+    "scryfallOracleId": "831e2185-0bb2-45bb-99cd-d2091bad86f0",
+    "subtypes": [
+      "Human",
+      "Soldier",
+      "Scout"
+    ],
+    "supertypes": [],
+    "tcgplayerProductId": 5452,
+    "tcgplayerPurchaseUrl": "https://mtgjson.com/links/d540bb71097dd07c",
+    "text": "First strike\n{W}: Target creature gains first strike until end of turn.",
+    "toughness": "1",
+    "type": "Creature — Human Soldier Scout",
+    "types": [
+      "Creature"
+    ],
+    "uuid": "23c57d2b-b961-5ea7-9603-7208eb44ae25",
+    "uuidV421": "83144546-63cd-55f4-b8ad-d7006b4f8ff4"
+  },
+  "Advanced Hoverguard": {
+    "colorIdentity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "convertedManaCost": 4.0,
+    "foreignData": [
+      {
+        "flavorText": "„Sie sind wie ihre Vedalken-Gebieter: unantastbar, distanziert und omnipräsent.\" — Bruenna, Anführerin der Neurok",
+        "language": "German",
+        "name": "Vorgerückter Schwebgardist",
+        "text": "Fliegend\n{U}: Der Vorgerückte Schwebgardist kann in diesem Zug nicht das Ziel von Zaubersprüchen und Fähigkeiten sein.",
+        "type": "Kreatur — Drohne"
+      },
+      {
+        "flavorText": "\"Son como sus amos vedalken: intocables, distantes y omnipresentes.\" —Bruenna, líder néurok",
+        "language": "Spanish",
+        "name": "Aeroguarda mejorado",
+        "text": "Vuela.\n{U}: El Aeroguarda mejorado no puede ser objetivo de hechizos o habilidades este turno.",
+        "type": "Criatura — Zángano"
+      },
+      {
+        "flavorText": "« Ils sont comme leurs maîtres vedalkens, intouchables, distants et omniprésents. » —Bruenna, chef des Neuroks",
+        "language": "French",
+        "name": "Aérogarde de conception avancée",
+        "text": "Vol\n{U} : L'Aérogarde de conception avancée ne peut pas être la cible de sorts ou de capacités ce tour-ci.",
+        "type": "Créature : drone"
+      },
+      {
+        "flavorText": "\"Sono come i loro padroni vedalken: intoccabili, distaccati e onnipresenti\" —Bruenna, condottiera neuraca",
+        "language": "Italian",
+        "name": "Aerocustode in Avanscoperta",
+        "text": "Volare\n{U}: L'Aerocustode in Avanscoperta non può essere bersaglio di magie o abilità in questo turno.",
+        "type": "Creatura — Drone"
+      },
+      {
+        "flavorText": "まるでヴィダルケンの首領みたいね。触れず、遠くて、どこにでもいるんだから。 ―― ニューロックの指導者ブルエナ",
+        "language": "Japanese",
+        "name": "上位の空護り",
+        "text": "飛行\n{U}：このターン、上位の空護りは呪文や能力の対象にならない。",
+        "type": "クリーチャー — ドローン"
+      },
+      {
+        "flavorText": "\"Eles são como seus mestres vedalkeanos: intocáveis, altivos e onipresentes.\" —Bruenna, líder dos Neuroques",
+        "language": "Portuguese (Brazil)",
+        "name": "Guarda-de-Ronda Avançado",
+        "text": "Voar\n{U}: Guarda-de-Ronda Avançado não pode ser alvo de mágicas ou habilidades neste turno.",
+        "type": "Criatura — Zangão"
+      },
+      {
+        "flavorText": "「冷漠，难以接近，无所不在；一如其维多肯主子。」 ～纽若克统领布威娜",
+        "language": "Chinese Simplified",
+        "name": "高等空卫",
+        "text": "飞行\n{U}：高等空卫本回合不能成为咒语或异能的目标。",
+        "type": "生物～奴兽"
+      }
+    ],
+    "layout": "normal",
+    "legalities": {
+      "commander": "Legal",
+      "duel": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "pauper": "Legal",
+      "penny": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{3}{U}",
+    "name": "Advanced Hoverguard",
+    "power": "2",
+    "printings": [
+      "5DN"
+    ],
+    "rulings": [],
+    "scryfallIllustrationId": "321329c0-dacc-41cf-b0d5-4511c8c70293",
+    "scryfallOracleId": "65dc61a4-9052-49d4-bce8-9c16f0339382",
+    "subtypes": [
+      "Drone"
+    ],
+    "supertypes": [],
+    "tcgplayerProductId": 11889,
+    "tcgplayerPurchaseUrl": "https://mtgjson.com/links/4867c23204240795",
+    "text": "Flying\n{U}: Advanced Hoverguard gains shroud until end of turn. (It can't be the target of spells or abilities.)",
+    "toughness": "2",
+    "type": "Creature — Drone",
+    "types": [
+      "Creature"
+    ],
+    "uuid": "59d44744-db84-548e-9802-49d32fb1d8b0",
+    "uuidV421": "bcc0129e-5c51-5008-8bb8-9c5d92f710fa"
+  },
+  "Advanced Stitchwing": {
+    "colorIdentity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "convertedManaCost": 5.0,
+    "foreignData": [],
+    "layout": "normal",
+    "legalities": {
+      "commander": "Legal",
+      "duel": "Legal",
+      "frontier": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "penny": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{3}{U}{U}",
+    "name": "Advanced Stitchwing",
+    "power": "3",
+    "printings": [
+      "EMN",
+      "GNT"
+    ],
+    "rulings": [
+      {
+        "date": "2016-07-13",
+        "text": "Advanced Stitchwing’s last ability can only be activated while it’s in your graveyard."
+      }
+    ],
+    "scryfallIllustrationId": "2fa18970-8377-4432-b963-c70dcf8d66a6",
+    "scryfallOracleId": "7e5d2801-873f-4318-9c23-9a73e00e31a4",
+    "subtypes": [
+      "Zombie",
+      "Horror"
+    ],
+    "supertypes": [],
+    "tcgplayerProductId": 180376,
+    "tcgplayerPurchaseUrl": "https://mtgjson.com/links/bea8220ef67d35af",
+    "text": "Flying\n{2}{U}, Discard two cards: Return Advanced Stitchwing from your graveyard to the battlefield tapped.",
+    "toughness": "4",
+    "type": "Creature — Zombie Horror",
+    "types": [
+      "Creature"
+    ],
+    "uuid": "c50f9fe6-090c-59b2-8104-58ba6601784a",
+    "uuidV421": "c98d53ff-9a8a-5f18-b50a-9349d7b5c6ce"
+  },
+  "Advantageous Proclamation": {
+    "colorIdentity": [],
+    "colors": [],
+    "convertedManaCost": 0.0,
+    "foreignData": [],
+    "layout": "normal",
+    "legalities": {
+      "commander": "Banned",
+      "legacy": "Banned",
+      "vintage": "Banned"
+    },
+    "name": "Advantageous Proclamation",
+    "printings": [
+      "CNS"
+    ],
+    "rulings": [
+      {
+        "date": "2014-05-29",
+        "text": "The effect of Advantageous Proclamation is cumulative. If you have two in your command zone to start the game, your minimum deck size is reduced by ten, and so on."
+      },
+      {
+        "date": "2014-05-29",
+        "text": "In Limited formats (including Conspiracy Draft), the minimum deck size is generally 40 cards. With Advantageous Proclamation, your Conspiracy Draft deck must contain at least 35 cards."
+      },
+      {
+        "date": "2016-08-23",
+        "text": "Conspiracies aren’t legal for any sanctioned Constructed format, but may be included in other Limited formats, such as Cube Draft."
+      },
+      {
+        "date": "2016-08-23",
+        "text": "A conspiracy’s static and triggered abilities function as long as that conspiracy is face-up in the command zone."
+      },
+      {
+        "date": "2016-08-23",
+        "text": "Conspiracies are colorless, have no mana cost, and can’t be cast as spells."
+      },
+      {
+        "date": "2016-08-23",
+        "text": "Conspiracies are never put into your deck. Instead, you put any number of conspiracies from your card pool into the command zone as the game begins. These conspiracies are face up unless they have hidden agenda, in which case they begin the game face down."
+      },
+      {
+        "date": "2016-08-23",
+        "text": "A conspiracy doesn’t count as a card in your deck for purposes of meeting minimum deck size requirements. (In most drafts, the minimum deck size is 40 cards.)"
+      },
+      {
+        "date": "2016-08-23",
+        "text": "You don’t have to play with any conspiracy you draft. However, you have only one opportunity to put conspiracies into the command zone, as the game begins. You can’t put conspiracies into the command zone after this point."
+      },
+      {
+        "date": "2016-08-23",
+        "text": "You can look at any player’s face-up conspiracies at any time. You’ll also know how many face-down conspiracies a player has in the command zone, although you won’t know what they are."
+      }
+    ],
+    "scryfallIllustrationId": "e6eb64bb-a1ce-4db2-b13b-5e9505dd197d",
+    "scryfallOracleId": "86373537-7424-416a-8d89-cc38f6538458",
+    "subtypes": [],
+    "supertypes": [],
+    "tcgplayerProductId": 83144,
+    "tcgplayerPurchaseUrl": "https://mtgjson.com/links/6fc6cea97f1cafa9",
+    "text": "(Start the game with this conspiracy face up in the command zone.)\nYour minimum deck size is reduced by five.",
+    "type": "Conspiracy",
+    "types": [
+      "Conspiracy"
+    ],
+    "uuid": "0222e471-d1db-55eb-a891-bd825ff20234",
+    "uuidV421": "ab14e335-9a6c-56cc-95f4-4b1da45237f6"
+  },
+  "Advent of the Wurm": {
+    "colorIdentity": [
+      "G",
+      "W"
+    ],
+    "colors": [
+      "G",
+      "W"
+    ],
+    "convertedManaCost": 4.0,
+    "foreignData": [
+      {
+        "flavorText": "Das Bewusstsein von Mat'Selesnija verbreitet sich nicht immer auf friedlichem Wege.",
+        "language": "German",
+        "name": "Ankunft des Wurms",
+        "text": "Erzeuge einen 5/5 grünen Wurm-Kreaturenspielstein, der Trampelschaden verursacht.",
+        "type": "Spontanzauber"
+      },
+      {
+        "flavorText": "La conciencia de Mat'Selesnya no siempre se extiende de forma pacífica.",
+        "language": "Spanish",
+        "name": "Advenimiento de la sierpe",
+        "text": "Crea una ficha de criatura Sierpe verde 5/5 con la habilidad de arrollar.",
+        "type": "Instantáneo"
+      },
+      {
+        "flavorText": "La conscience de Mat'Selesnya ne se répand pas toujours de façon pacifique.",
+        "language": "French",
+        "name": "Avènement de la guivre",
+        "text": "Créez un jeton de créature 5/5 verte Guivre avec le piétinement.",
+        "type": "Éphémère"
+      },
+      {
+        "flavorText": "La coscienza di Mat'Selesnya non sempre si diffonde per vie pacifiche.",
+        "language": "Italian",
+        "name": "Venuta del Wurm",
+        "text": "Crea una pedina creatura Wurm 5/5 verde con travolgere.",
+        "type": "Istantaneo"
+      },
+      {
+        "flavorText": "マット・セレズニアの意識が常に平和な手段で伝播するとは限らない。",
+        "language": "Japanese",
+        "name": "ワームの到来",
+        "text": "トランプルを持つ緑の５/５のワーム・クリーチャー・トークンを１体生成する。",
+        "type": "インスタント"
+      }
+    ],
+    "layout": "normal",
+    "legalities": {
+      "commander": "Legal",
+      "duel": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "penny": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{1}{G}{G}{W}",
+    "name": "Advent of the Wurm",
+    "printings": [
+      "DGM",
+      "GK1",
+      "MM3"
+    ],
+    "rulings": [],
+    "scryfallIllustrationId": "fc06d465-4708-4c83-8473-9048a04d7d82",
+    "scryfallOracleId": "eb62aa4b-c11b-4195-ae85-cff8f78ce17b",
+    "subtypes": [],
+    "supertypes": [],
+    "tcgplayerProductId": 177424,
+    "tcgplayerPurchaseUrl": "https://mtgjson.com/links/4470315b0243cdb2",
+    "text": "Create a 5/5 green Wurm creature token with trample.",
+    "type": "Instant",
+    "types": [
+      "Instant"
+    ],
+    "uuid": "fc48f02c-b126-500b-8724-97d68dd5f773",
+    "uuidV421": "02d79a28-04f4-56dc-8c19-d728bb3c59c1"
+  },
+  "Adventurers' Guildhouse": {
+    "colorIdentity": [],
+    "colors": [],
+    "convertedManaCost": 0.0,
+    "foreignData": [
+      {
+        "language": "Italian",
+        "name": "Ritrovo degli Avventurieri"
+      }
+    ],
+    "layout": "normal",
+    "legalities": {
+      "commander": "Legal",
+      "duel": "Legal",
+      "legacy": "Legal",
+      "oldschool": "Legal",
+      "vintage": "Legal"
+    },
+    "name": "Adventurers' Guildhouse",
+    "printings": [
+      "LEG"
+    ],
+    "rulings": [],
+    "scryfallIllustrationId": "d7c30ae9-ba78-4c03-b465-1f48a108c350",
+    "scryfallOracleId": "bf29b215-d4f5-4641-97ef-b65d4c463e72",
+    "subtypes": [],
+    "supertypes": [],
+    "tcgplayerProductId": 3787,
+    "tcgplayerPurchaseUrl": "https://mtgjson.com/links/49fb5ac23fa3ccfe",
+    "text": "Green legendary creatures you control have \"bands with other legendary creatures.\" (Any legendary creatures can attack in a band as long as at least one has \"bands with other legendary creatures.\" Bands are blocked as a group. If at least two legendary creatures you control, one of which has \"bands with other legendary creatures,\" are blocking or being blocked by the same creature, you divide that creature's combat damage, not its controller, among any of the creatures it's being blocked by or is blocking.)",
+    "type": "Land",
+    "types": [
+      "Land"
+    ],
+    "uuid": "4f70a44b-0e30-5ef4-b223-f2ba06baf398",
+    "uuidV421": "3efc1f23-5701-5d88-953f-34ddd1c4a835"
+  },
+  "Adventuring Gear": {
+    "colorIdentity": [],
+    "colors": [],
+    "convertedManaCost": 1.0,
+    "foreignData": [
+      {
+        "flavorText": "Alles, was ein Erforscher in einer wilden Welt benötigt.",
+        "language": "German",
+        "name": "Abenteurer-Ausstattung",
+        "text": "Landung — Immer wenn ein Land unter deiner Kontrolle ins Spiel kommt, erhält die ausgerüstete Kreatur +2/+2 bis zum Ende des Zuges.\nAusrüsten {1} ({1}: Lege diese Karte an eine Kreatur deiner Wahl an, die du kontrollierst. Spiele Ausrüsten wie eine Hexerei.)",
+        "type": "Artefakt — Ausrüstung"
+      },
+      {
+        "flavorText": "Lo básico para un explorador de viaje.",
+        "language": "Spanish",
+        "name": "Atavío de aventurero",
+        "text": "Aterrizaje — Siempre que una tierra entre al campo de batalla bajo tu control, la criatura equipada obtiene +2/+2 hasta el final del turno.\nEquipar {1}. ({1}: Anexa este equipo a la criatura objetivo que controles. Juega la habilidad de equipar como un conjuro.)",
+        "type": "Artefacto — Equipo"
+      },
+      {
+        "flavorText": "Les outils de l'explorateur dans un monde sauvage.",
+        "language": "French",
+        "name": "Attirail d'aventure",
+        "text": "Toucheterre — À chaque fois qu'un terrain arrive sur le champ de bataille sous votre contrôle, la créature équipée gagne +2/+2 jusqu'à la fin du tour.\nÉquipement {1} ({1} : Attachez à la créature ciblée que vous contrôlez. N'attachez l'équipement que lorsque vous pourriez lancer un rituel.)",
+        "type": "Artefact : équipement"
+      },
+      {
+        "flavorText": "Lo stretto indispensabile a un esploratore nelle zone selvagge.",
+        "language": "Italian",
+        "name": "Dotazione dell'Avventuriero",
+        "text": "Terraferma — Ogniqualvolta una terra entra nel campo di battaglia sotto il tuo controllo, la creatura equipaggiata prende +2/+2 fino alla fine del turno.\nEquipaggiare {1} ({1}: Assegna a una creatura bersaglio che controlli. Equipaggia solo quando potresti lanciare una stregoneria.)",
+        "type": "Artefatto — Equipaggiamento"
+      },
+      {
+        "flavorText": "野蛮な世界での探検家の必需品。",
+        "language": "Japanese",
+        "name": "冒険者の装具",
+        "text": "上陸 ― 土地が１つあなたのコントロール下で戦場に出るたび、装備しているクリーチャーはターン終了時まで＋２/＋２の修整を受ける。\n装備 {1} ({1}：あなたがコントロールするクリーチャー１体を対象とし、これをつける。 装備はソーサリーとしてのみ行う。）",
+        "type": "アーティファクト — 装備品"
+      },
+      {
+        "flavorText": "Acessórios básicos de um explorador num mundo selvagem.",
+        "language": "Portuguese (Brazil)",
+        "name": "Aparelhagem de Aventura",
+        "text": "Aterragem — Toda vez que um terreno entra no campo de batalha sob o seu controle, a criatura equipada recebe +2/+2 até o final do turno.\nEquipar {1} ({1}: Anexe a uma criatura alvo que você controla. Equipe somente quando puder jogar um feitiço.)",
+        "type": "Artefato — Equipamento"
+      },
+      {
+        "flavorText": "Предметы первой необходимости для исследователя в диком мире.",
+        "language": "Russian",
+        "name": "Экипировка Путешественника",
+        "text": "Землепад — Каждый раз, когда земля выходит на поле битвы под вашим контролем, снаряженное существо получает +2/+2 до конца хода.\nСнарядить {1} ({1}: прикрепите к целевому существу под вашим контролем. Снаряжайте только как волшебство.)",
+        "type": "Артефакт — Снаряжение"
+      },
+      {
+        "flavorText": "探险家在蛮荒世界的基本用具。",
+        "language": "Chinese Simplified",
+        "name": "历险配备",
+        "text": "地落～每当一个地在你的操控下进战场时，佩带此武具的生物得+2/+2直到回合结束。\n佩带{1} （{1}：装备在目标由你操控的生物上； 佩带的时机视同法术。）",
+        "type": "神器～武具"
+      }
+    ],
+    "layout": "normal",
+    "legalities": {
+      "commander": "Legal",
+      "duel": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "pauper": "Legal",
+      "penny": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{1}",
+    "name": "Adventuring Gear",
+    "printings": [
+      "ZEN"
+    ],
+    "rulings": [
+      {
+        "date": "2009-10-01",
+        "text": "The landfall ability triggers whenever a land enters the battlefield under your control for any reason. It triggers whenever you play a land, as well as whenever a spell or ability (such as Rampant Growth) causes you to put a land onto the battlefield under your control. It will even trigger when a spell or ability causes another player to put a land onto the battlefield under your control (as can happen with Yavimaya Dryad’s ability, for example)."
+      },
+      {
+        "date": "2009-10-01",
+        "text": "When a land enters the battlefield under your control, each landfall ability of the permanents you control will trigger. You can put them on the stack in any order. The last ability you put on the stack will be the first one that resolves."
+      },
+      {
+        "date": "2009-10-01",
+        "text": "The landfall ability gives +2/+2 to the creature that’s equipped by Adventuring Gear at the time that ability resolves. It doesn’t matter what creature Adventuring Gear was attached to (if any) when it triggered. That bonus remains with that creature even if Adventuring Gear leaves the battlefield or becomes attached to a different creature later in the turn."
+      },
+      {
+        "date": "2009-10-01",
+        "text": "If Adventuring Gear leaves the battlefield before its landfall ability resolves, the creature it was attached to at the time it left the battlefield gets +2/+2. If it wasn’t attached to a creature at that time, nothing gets the bonus."
+      }
+    ],
+    "scryfallIllustrationId": "4be99724-fc1c-45f9-95ce-10a4f9d61c98",
+    "scryfallOracleId": "17042684-7af4-43a6-88c7-885032cfb27c",
+    "subtypes": [
+      "Equipment"
+    ],
+    "supertypes": [],
+    "tcgplayerProductId": 33247,
+    "tcgplayerPurchaseUrl": "https://mtgjson.com/links/367cd5e321b29564",
+    "text": "Landfall — Whenever a land enters the battlefield under your control, equipped creature gets +2/+2 until end of turn.\nEquip {1} ({1}: Attach to target creature you control. Equip only as a sorcery.)",
+    "type": "Artifact — Equipment",
+    "types": [
+      "Artifact"
+    ],
+    "uuid": "d93cff35-44e4-5283-840f-5244a816c8a3",
+    "uuidV421": "126cd911-4a2a-5489-97bc-89f86de55e3f"
+  },
+  "Adventurous Impulse": {
+    "colorIdentity": [
+      "G"
+    ],
+    "colors": [
+      "G"
+    ],
+    "convertedManaCost": 1.0,
+    "foreignData": [
+      {
+        "flavorText": "Jede Odyssee beginnt mit einem einzigen Schritt.",
+        "language": "German",
+        "name": "Abenteuerlust",
+        "text": "Schaue dir die obersten drei Karten deiner Bibliothek an. Du kannst davon eine Kreaturen- oder Länderkarte offen vorzeigen und auf deine Hand nehmen. Lege den Rest in beliebiger Reihenfolge unter deine Bibliothek.",
+        "type": "Hexerei"
+      },
+      {
+        "flavorText": "Toda odisea comienza con un solo paso.",
+        "language": "Spanish",
+        "name": "Impulso aventurero",
+        "text": "Mira las tres primeras cartas de tu biblioteca. Puedes mostrar una carta de criatura o de tierra que se encuentre entre ellas y ponerla en tu mano. Pon el resto en el fondo de tu biblioteca en cualquier orden.",
+        "type": "Conjuro"
+      },
+      {
+        "flavorText": "Chaque odyssée commence par un simple pas.",
+        "language": "French",
+        "name": "Impulsion audacieuse",
+        "text": "Regardez les trois cartes du dessus de votre bibliothèque. Vous pouvez révéler une carte de créature ou de terrain parmi elles et la mettre dans votre main. Mettez le reste au-dessous de votre bibliothèque, dans l'ordre de votre choix.",
+        "type": "Rituel"
+      },
+      {
+        "flavorText": "Ogni odissea ha inizio con un singolo passo.",
+        "language": "Italian",
+        "name": "Impulso Avventuroso",
+        "text": "Guarda le prime tre carte del tuo grimorio. Puoi rivelare una carta creatura o terra scelta tra esse e aggiungerla alla tua mano. Metti le altre in fondo al tuo grimorio in qualsiasi ordine.",
+        "type": "Stregoneria"
+      },
+      {
+        "flavorText": "どの大冒険にも最初の一歩がある。",
+        "language": "Japanese",
+        "name": "冒険の衝動",
+        "text": "あなたのライブラリーの一番上からカードを３枚見る。あなたはその中からクリーチャーか土地であるカード１枚を公開してあなたの手札に加えてもよい。残りをあなたのライブラリーの一番下に望む順番で置く。",
+        "type": "ソーサリー"
+      },
+      {
+        "flavorText": "모든 여정은 한 걸음에서 시작된다.",
+        "language": "Korean",
+        "name": "대담한 충동",
+        "text": "당신의 서고 맨 위 카드 세 장을 본다. 당신은 그중에서 생물 또는 대지 카드 한 장을 공개하고 당신의 손으로 가져갈 수 있다. 나머지 카드들은 당신이 원하는 순서로 당신의 서고 맨 밑에 놓는다.",
+        "type": "집중마법"
+      },
+      {
+        "flavorText": "Toda odisseia começa com um único passo.",
+        "language": "Portuguese (Brazil)",
+        "name": "Impulso Aventureiro",
+        "text": "Olhe os três cards do topo de seu grimório. Você pode revelar um card de criatura ou terreno dentre eles e colocá-lo em sua mão. Coloque o restante no fundo de seu grimório em qualquer ordem.",
+        "type": "Feitiço"
+      },
+      {
+        "flavorText": "Самое длинное странствие начинается с одного шага.",
+        "language": "Russian",
+        "name": "Зов Приключений",
+        "text": "Посмотрите три верхние карты вашей библиотеки. Вы можете показать находящуюся среди них карту существа или земли и положить ее в вашу руку. Положите остальные карты в низ вашей библиотеки в любом порядке.",
+        "type": "Волшебство"
+      },
+      {
+        "flavorText": "奥德赛般的万里远征，也始于足下迈出的第一步。",
+        "language": "Chinese Simplified",
+        "name": "冒险冲动",
+        "text": "检视你牌库顶的三张牌。你可以展示其中的一张生物或地牌，并将它置于你手上。将其余的牌以任意顺序置于你牌库底。",
+        "type": "法术"
+      },
+      {
+        "flavorText": "奧德賽般的萬里遠征，也始於足下邁出的第一步。",
+        "language": "Chinese Traditional",
+        "name": "冒險衝動",
+        "text": "檢視你牌庫頂的三張牌。你可以展示其中的一張生物或地牌，並將它置於你手上。將其餘的牌以任意順序置於你牌庫底。",
+        "type": "巫術"
+      }
+    ],
+    "layout": "normal",
+    "legalities": {
+      "commander": "Legal",
+      "duel": "Legal",
+      "frontier": "Legal",
+      "future": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "pauper": "Legal",
+      "penny": "Legal",
+      "standard": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{G}",
+    "name": "Adventurous Impulse",
+    "printings": [
+      "DOM"
+    ],
+    "rulings": [],
+    "scryfallIllustrationId": "f33c5f4d-1687-4a3c-8604-aca80c986cb1",
+    "scryfallOracleId": "5bf49f39-b3d5-4148-8dc2-b5b5011769d2",
+    "subtypes": [],
+    "supertypes": [],
+    "tcgplayerProductId": 164344,
+    "tcgplayerPurchaseUrl": "https://mtgjson.com/links/dda05527fd5aa4ff",
+    "text": "Look at the top three cards of your library. You may reveal a creature or land card from among them and put it into your hand. Put the rest on the bottom of your library in any order.",
+    "type": "Sorcery",
+    "types": [
+      "Sorcery"
+    ],
+    "uuid": "dbf5b430-00cd-5c95-bb71-2c9618924d73",
+    "uuidV421": "5ead0675-0408-5f3e-9f7c-debb3fcce8d9"
+  },
+  "Adverse Conditions": {
+    "colorIdentity": [
+      "U"
+    ],
+    "colors": [],
+    "convertedManaCost": 4.0,
+    "foreignData": [
+      {
+        "language": "German",
+        "name": "Widrige Umstände",
+        "text": "Fahl (Diese Karte hat keine Farbe.)Tappe bis zu zwei Kreaturen deiner Wahl. Diese Kreaturen enttappen nicht während des nächsten Enttappsegments ihrer Beherrscher. Bringe einen 1/1 farblosen Eldrazi-Brut-Kreaturenspielstein ins Spiel. Er hat „Opfere diese Kreatur: Erhöhe deinen Manavorrat um {1}.\"",
+        "type": "Spontanzauber"
+      },
+      {
+        "language": "Spanish",
+        "name": "Condiciones adversas",
+        "text": "Vacío. (Esta carta no tiene ningún color.)Gira hasta dos criaturas objetivo. Esas criaturas no se enderezan durante el próximo paso de enderezar de su controlador. Pon en el campo de batalla una ficha de criatura Vástago Eldrazi incolora 1/1. Tiene \"Sacrificar esta criatura: Agrega {1} a tu reserva de maná\".",
+        "type": "Instantáneo"
+      },
+      {
+        "language": "French",
+        "name": "Conditions défavorables",
+        "text": "Carence (Cette carte n'a pas de couleur.)Engagez jusqu'à deux créatures ciblées. Ces créatures ne se dégagent pas pendant la prochaine étape de dégagement de leur contrôleur. Mettez sur le champ de bataille un jeton de créature 1/1 incolore Eldrazi et Scion. Il a « Sacrifiez cette créature : Ajoutez {1} à votre réserve. »",
+        "type": "Éphémère"
+      },
+      {
+        "language": "Italian",
+        "name": "Condizioni Avverse",
+        "text": "Vacuità (Questa carta non ha colore.)TAPpa fino a due creature bersaglio. Quelle creature non STAPpano durante il prossimo STAP del loro controllore. Metti sul campo di battaglia una pedina creatura Discendente Eldrazi 1/1 incolore. Ha \"Sacrifica questa creatura: Aggiungi {1} alla tua riserva di mana\".",
+        "type": "Istantaneo"
+      },
+      {
+        "language": "Japanese",
+        "name": "逆境",
+        "text": "欠色（このカードは無色である。）クリーチャーを最大２体対象とし、それらをタップする。それらのクリーチャーは、それらのコントローラーの次のアンタップ・ステップにアンタップしない。無色の１/１のエルドラージ・末裔・クリーチャー・トークンを１体戦場に出す。それは「このクリーチャーを生け贄に捧げる：あなたのマナ・プールに{1}を加える。」を持つ。",
+        "type": "インスタント"
+      },
+      {
+        "language": "Korean",
+        "name": "불리한 조건",
+        "text": "결여 (이 카드는 무색이다.)생물을 최대 두 개까지 목표로 정한다. 그 생물들을 탭한다. 그 생물들은 조종자의 다음 언탭단에 언탭되지 않는다. 1/1 무색 엘드라지 자손 생물 토큰 한 개를 전장에 놓는다. 그 생물은 \"이 생물을 희생한다: 당신의 마나풀에 {1}을 담는다.\"를 가진다.",
+        "type": "순간마법"
+      },
+      {
+        "language": "Portuguese (Brazil)",
+        "name": "Condições Adversas",
+        "text": "Desprovido (Este card não tem cor.)Vire até duas criaturas alvo. Aquelas criaturas não são desviradas durante a próxima etapa de desvirar de seu controlador. Coloque no campo de batalha uma ficha de criatura incolor 1/1 do tipo Rebento Eldrazi. Ela tem \"Sacrifique esta criatura: Adicione {1} à sua reserva de mana.\".",
+        "type": "Mágica Instantânea"
+      },
+      {
+        "language": "Russian",
+        "name": "Неблагоприятные Условия",
+        "text": "Лишение (У этой карты нет цвета.)Поверните не более двух целевых существ. Те существа не разворачиваются во время следующего шага разворота контролирующего их игрока. Положите на поле битвы одну фишку существа 1/1 бесцветный Эльдрази Отпрыск. Она имеет способность «Пожертвуйте это существо: добавьте {1} в ваше хранилище маны».",
+        "type": "Мгновенное заклинание"
+      },
+      {
+        "language": "Chinese Simplified",
+        "name": "不利情况",
+        "text": "虚色（此牌没有颜色。）横置至多两个目标生物。这些生物于其操控者的下一个重置步骤中不能重置。将一个1/1无色奥札奇／孽裔衍生生物放进战场。它具有「牺牲此生物：加{1}到你的法术力池中。」",
+        "type": "瞬间"
+      },
+      {
+        "language": "Chinese Traditional",
+        "name": "不利情況",
+        "text": "虛色（此牌沒有顏色。）橫置至多兩個目標生物。這些生物於其操控者的下一個重置步驟中不能重置。將一個1/1無色奧札奇／孽裔衍生生物放進戰場。它具有「犧牲此生物：加{1}到你的魔法力池中。」",
+        "type": "瞬間"
+      }
+    ],
+    "layout": "normal",
+    "legalities": {
+      "commander": "Legal",
+      "duel": "Legal",
+      "frontier": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "penny": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{3}{U}",
+    "name": "Adverse Conditions",
+    "names": [],
+    "printings": [
+      "BFZ"
+    ],
+    "rulings": [
+      {
+        "date": "2015-08-25",
+        "text": "You can cast Adverse Conditions with no targets. When it resolves, you’ll get an Eldrazi Scion. However, if you cast Adverse Conditions with any targets and all of those targets are illegal as it tries to resolve, it won’t resolve and none of its effects will happen. You won’t get the Eldrazi Scion in that case."
+      },
+      {
+        "date": "2015-08-25",
+        "text": "Adverse Conditions tracks the creatures, but not their controller. If either of the creatures changes controllers before its first controller’s next untap step has come around, then it won’t untap during its new controller’s next untap step."
+      },
+      {
+        "date": "2015-08-25",
+        "text": "Cards with devoid use frames that are variations of the transparent frame traditionally used for Eldrazi. The top part of the card features some color over a background based on the texture of the hedrons that once imprisoned the Eldrazi. This coloration is intended to aid deckbuilding and game play."
+      },
+      {
+        "date": "2015-08-25",
+        "text": "A card with devoid is just colorless. It’s not colorless and the colors of mana in its mana cost."
+      },
+      {
+        "date": "2015-08-25",
+        "text": "Other cards and abilities can give a card with devoid color. If that happens, it’s just the new color, not that color and colorless."
+      },
+      {
+        "date": "2015-08-25",
+        "text": "Devoid works in all zones, not just on the battlefield."
+      },
+      {
+        "date": "2015-08-25",
+        "text": "If a card loses devoid, it will still be colorless. This is because effects that change an object’s color (like the one created by devoid) are considered before the object loses devoid."
+      },
+      {
+        "date": "2015-08-25",
+        "text": "Eldrazi Scions are similar to Eldrazi Spawn, seen in the Zendikar block. Note that Eldrazi Scions are 1/1, not 0/1."
+      },
+      {
+        "date": "2015-08-25",
+        "text": "Eldrazi and Scion are each separate creature types. Anything that affects Eldrazi will affect these tokens, for example."
+      },
+      {
+        "date": "2015-08-25",
+        "text": "Sacrificing an Eldrazi Scion creature token to add {C} to your mana pool is a mana ability. It doesn’t use the stack and can’t be responded to."
+      },
+      {
+        "date": "2015-08-25",
+        "text": "Some instants and sorceries that create Eldrazi Scions require targets. If all targets for such a spell have become illegal by the time that spell tries to resolve, the spell won’t resolve and none of its effects will happen. You won’t get any Eldrazi Scions."
+      }
+    ],
+    "scryfallIllustrationId": "6aa5f6c0-31f2-4cc2-aab6-34546581526d",
+    "scryfallOracleId": "7a5a81f7-1597-4972-8565-fd2a5667df99",
+    "subtypes": [],
+    "supertypes": [],
+    "tcgplayerProductId": 105564,
+    "tcgplayerPurchaseUrl": "https://mtgjson.com/links/7016a9c358ec719f",
+    "text": "Devoid (This card has no color.)\nTap up to two target creatures. Those creatures don't untap during their controller's next untap step. Create a 1/1 colorless Eldrazi Scion creature token. It has \"Sacrifice this creature: Add {C}.\"",
+    "type": "Instant",
+    "types": [
+      "Instant"
+    ],
+    "uuid": "3ac54c2b-cd67-5fcd-b9f5-0e6cfb54e17c",
+    "uuidV421": "c2f46b88-0b0c-5029-8260-a94e4dd38d3e"
+  },
+  "Advice from the Fae": {
+    "colorIdentity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "convertedManaCost": 6.0,
+    "foreignData": [
+      {
+        "language": "German",
+        "name": "Ratschlag der Fee",
+        "text": "({2/U} kann mit zwei beliebigen Mana oder mit {U} bezahlt werden. Die umgewandelten Manakosten dieser Karte betragen 6.)\nSchaue dir die obersten fünf Karten deiner Bibliothek an. Kontrollierst du mehr Kreaturen als jeder andere Spieler, nimm zwei dieser Karten auf deine Hand. Nimm sonst eine davon auf deine Hand. Lege dann den Rest in beliebiger Reihenfolge unter deine Bibliothek.",
+        "type": "Hexerei"
+      },
+      {
+        "language": "Spanish",
+        "name": "Consejo de las hadas",
+        "text": "({2/U} puede pagarse con dos maná cualesquiera o con {U}. El costo de maná convertido de esta carta es 6.)\nMira las primeras cinco cartas de tu biblioteca. Si controlas más criaturas que cualquiera de los otros jugadores, pon dos de esas cartas en tu mano. De lo contrario, pon una de ellas en tu mano. Luego pon el resto en el fondo de tu biblioteca en cualquier orden.",
+        "type": "Conjuro"
+      },
+      {
+        "language": "French",
+        "name": "Recommandation des faeries",
+        "text": "({2/U} peut être payé au choix avec n'importe quelle combinaison de deux manas ou avec {U}. Le coût converti de mana de cette carte est 6.)\nRegardez les cinq cartes du dessus de votre bibliothèque. Si vous contrôlez plus de créatures que chacun des autres joueurs, mettez deux de ces cartes dans votre main. Sinon, mettez l'une d'elles dans votre main. Mettez ensuite les autres au-dessous de votre bibliothèque, dans n'importe quel ordre.",
+        "type": "Rituel"
+      },
+      {
+        "language": "Italian",
+        "name": "Consiglio degli Spiritelli",
+        "text": "({2/U} può essere pagato con due mana qualsiasi o con {U}. Il costo di mana convertito di questa carta è 6.)\nGuarda le prime cinque carte del tuo grimorio. Se controlli più creature di qualsiasi altro giocatore, aggiungi alla tua mano due di quelle carte. Altrimenti, aggiungi alla tua mano una di quelle carte. Poi metti le altre in fondo al tuo grimorio in qualsiasi ordine.",
+        "type": "Stregoneria"
+      },
+      {
+        "language": "Japanese",
+        "name": "妖精からの助言",
+        "text": "（{2/U}は、任意の２マナか{U}で支払うことができる。 このカードの点数で見たマナ・コストは６である。）\nあなたのライブラリーの一番上から５枚のカードを見る。 あなたが他の各プレイヤーよりも多くのクリーチャーをコントロールしている場合、それらのカードのうちの２枚をあなたの手札に加える。 そうでない場合、それらのうちの１枚をあなたの手札に加える。 その後、残りをあなたのライブラリーの一番下に望む順番で置く。",
+        "type": "ソーサリー"
+      },
+      {
+        "language": "Portuguese (Brazil)",
+        "name": "Conselho das Fadinas",
+        "text": "({2/U} pode ser pago com quaisquer dois manas ou com {U}. O custo de mana convertido desse card é 6.)\nOlhe os cinco cards do topo de seu grimório. Se você controlar mais criaturas do que qualquer outro jogador, coloque dois desses cards na sua mão. Do contrário, coloque um deles na sua mão. Coloque o resto no fundo de seu grimório em qualquer ordem.",
+        "type": "Feitiço"
+      },
+      {
+        "language": "Russian",
+        "name": "Советы Фей",
+        "text": "(За {2/U} можно заплатить две любые маны или {U}. Конвертированная мана-стоимость этой карты равна 6.)\nПосмотрите пять верхних карт вашей библиотеки. Если вы контролируете больше существ, чем любой другой игрок, положите две из тех карт в вашу руку. В противном случае положите в вашу руку одну из них. Затем положите остальные карты в низ вашей библиотеки в любом порядке.",
+        "type": "Волшебство"
+      },
+      {
+        "language": "Chinese Simplified",
+        "name": "仙儿建言",
+        "text": "（能用任意两点法术力或是{U}来支付{2/U}。 此牌的总法术力费用为6。）\n检视你牌库顶的五张牌。 如果由你操控的生物数量比其他每位牌手都多，则将其中两张置于你手上。 若否，则将其中一张置于你手上。 然后将其余的牌以任意顺序置于你牌库底。",
+        "type": "法术"
+      }
+    ],
+    "layout": "normal",
+    "legalities": {
+      "commander": "Legal",
+      "duel": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "penny": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{2/U}{2/U}{2/U}",
+    "name": "Advice from the Fae",
+    "printings": [
+      "SHM"
+    ],
+    "rulings": [
+      {
+        "date": "2008-05-01",
+        "text": "If an effect reduces the cost to cast a spell by an amount of generic mana, it applies to a monocolored hybrid spell only if you’ve chosen a method of paying for it that includes generic mana."
+      },
+      {
+        "date": "2008-05-01",
+        "text": "A card with a monocolored hybrid mana symbol in its mana cost is each of the colors that appears in its mana cost, regardless of what mana was spent to cast it. Thus, Advice from the Fae is blue, even if you spend six black mana to cast it."
+      },
+      {
+        "date": "2008-05-01",
+        "text": "A card with monocolored hybrid mana symbols in its mana cost has a converted mana cost equal to the highest possible cost it could be cast for. Its converted mana cost never changes. Thus, Advice from the Fae has a converted mana cost of 6, even if you spend {U}{U}{U} to cast it."
+      },
+      {
+        "date": "2008-05-01",
+        "text": "If a cost includes more than one monocolored hybrid mana symbol, you can choose a different way to pay for each symbol. For example, you can pay for Advice from the Fae by spending {U}{U}{U}, {2}{U}{U}, {4}{U}, or {6}."
+      },
+      {
+        "date": "2008-05-01",
+        "text": "In a multiplayer game, compare the number of creatures you control with the number of creatures each other player controls. If any single player controls at least as many creatures as you, you get to put only one card into your hand."
+      }
+    ],
+    "scryfallIllustrationId": "2f7d3a61-e338-4532-b5b4-7bfa7d1c026a",
+    "scryfallOracleId": "5063f015-bd1c-4e14-9888-63e202be2ac8",
+    "subtypes": [],
+    "supertypes": [],
+    "tcgplayerProductId": 18559,
+    "tcgplayerPurchaseUrl": "https://mtgjson.com/links/2d87ddac480ead3a",
+    "text": "({2/U} can be paid with any two mana or with {U}. This card's converted mana cost is 6.)\nLook at the top five cards of your library. If you control more creatures than each other player, put two of those cards into your hand. Otherwise, put one of them into your hand. Then put the rest on the bottom of your library in any order.",
+    "type": "Sorcery",
+    "types": [
+      "Sorcery"
+    ],
+    "uuid": "321530e9-c122-5e75-89f2-d80ea6b19a20",
+    "uuidV421": "886253ae-5b36-5949-83fa-254bb85d69b8"
+  },
+  "Advocate of the Beast": {
+    "colorIdentity": [
+      "G"
+    ],
+    "colors": [
+      "G"
+    ],
+    "convertedManaCost": 3.0,
+    "foreignData": [
+      {
+        "flavorText": "„Ich bin weder ihr Hirte noch ihr Anführer. Für diese majestätischen Tiere bin ich einfach nur ein Mitglied ihrer Herde, sonst nichts.\"",
+        "language": "German",
+        "name": "Fürsprecher der Bestie",
+        "text": "Lege zu Beginn deines Endsegments eine +1/+1-Marke auf eine Bestie-Kreatur deiner Wahl, die du kontrollierst.",
+        "type": "Kreatur — Elf, Schamane"
+      },
+      {
+        "flavorText": "\"No soy ni su arriero ni su líder. Para estas majestuosas bestias, soy simplemente uno más en el rebaño. Nada más.\"",
+        "language": "Spanish",
+        "name": "Defensor de la bestia",
+        "text": "Al comienzo de tu paso final, pon un contador +1/+1 sobre la criatura objetivo Bestia que controles.",
+        "type": "Criatura — Chamán elfo"
+      },
+      {
+        "flavorText": "« Je ne suis ni leur meneur ni leur chef. Aux yeux de ces bêtes majestueuses, je ne suis qu'un membre de la meute et rien d'autre. »",
+        "language": "French",
+        "name": "Partisan de la bête",
+        "text": "Au début de votre étape de fin, mettez un marqueur +1/+1 sur une créature Bête ciblée que vous contrôlez.",
+        "type": "Créature : elfe et shamane"
+      },
+      {
+        "flavorText": "\"Non sono la loro guida né il loro pastore. Semplicemente, per queste bestie maestose faccio parte del branco.\"",
+        "language": "Italian",
+        "name": "Fautore delle Bestie",
+        "text": "All'inizio della tua sottofase finale, metti un segnalino +1/+1 su una creatura Bestia bersaglio che controlli.",
+        "type": "Creatura — Sciamano Elfo"
+      },
+      {
+        "flavorText": "「俺は獣追いでもなければあいつらの統率者でもない。威厳に満ちた獣達にとって、俺は単なる群れの仲間であって、それ以上の何者でもないんだ。」",
+        "language": "Japanese",
+        "name": "獣の代言者",
+        "text": "あなたの終了ステップの開始時に、あなたがコントロールするビースト・クリーチャー１体を対象とし、それの上に＋１/＋１カウンターを１個置く。",
+        "type": "クリーチャー — エルフ・シャーマン"
+      },
+      {
+        "flavorText": "\"전 그들의 몰이꾼도 지도자도 아닙니다. 이 위대한 야수들이 속한 무리의 일원일 뿐입니다.\"",
+        "language": "Korean",
+        "name": "야수의 대변인",
+        "text": "당신의 종료단 시작에, 당신이 조종하는 야수 생물 한 개를 목표로 정한다. 그 생물에 +1/+1 카운터 한 개를 올려놓는다.",
+        "type": "생물 — 엘프 주술사"
+      },
+      {
+        "flavorText": "\"Não sou nem seu condutor, nem seu líder. Para essas feras majestosas, eu sou apenas um companheiro de rebanho e nada mais.\"",
+        "language": "Portuguese (Brazil)",
+        "name": "Advogado da Fera",
+        "text": "No início de sua etapa final, coloque um marcador +1/+1 na criatura alvo do tipo Besta que você controla.",
+        "type": "Criatura — Elfo Xamã"
+      },
+      {
+        "flavorText": "«Я им не погонщик и не вожак. Для этих величественных зверей я просто соплеменник, не более».",
+        "language": "Russian",
+        "name": "Защитник Зверя",
+        "text": "В начале вашего заключительного шага положите один жетон +1/+1 на целевое существо-Зверя под вашим контролем.",
+        "type": "Существо — Эльф Шаман"
+      },
+      {
+        "flavorText": "「我既非它们的牧人，亦非其领袖。对这些雄伟野兽而言，我只是它们的同伴，仅此而已。」",
+        "language": "Chinese Simplified",
+        "name": "野兽拥护人",
+        "text": "在你的结束步骤开始时，在目标由你操控的野兽生物上放置一个+1/+1指示物。",
+        "type": "生物～妖精／祭师"
+      },
+      {
+        "flavorText": "「我既非牠們的牧人，亦非其領袖。對這些雄偉野獸而言，我只是牠們的同伴，僅此而已。」",
+        "language": "Chinese Traditional",
+        "name": "野獸擁護人",
+        "text": "在你的結束步驟開始時，在目標由你操控的野獸生物上放置一個+1/+1指示物。",
+        "type": "生物～妖精／祭師"
+      }
+    ],
+    "layout": "normal",
+    "legalities": {
+      "commander": "Legal",
+      "duel": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "pauper": "Legal",
+      "penny": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{2}{G}",
+    "name": "Advocate of the Beast",
+    "names": [],
+    "power": "2",
+    "printings": [
+      "M14"
+    ],
+    "rulings": [
+      {
+        "date": "2013-07-01",
+        "text": "If you don’t control any Beast creatures as your end step begins, the ability will be removed from the stack and will have no effect."
+      }
+    ],
+    "scryfallIllustrationId": "f11c1228-38f7-4565-99a8-747a27b3a8e0",
+    "scryfallOracleId": "1208cb6e-34b4-4a23-9a5b-a01229113e38",
+    "subtypes": [
+      "Elf",
+      "Shaman"
+    ],
+    "supertypes": [],
+    "tcgplayerProductId": 69114,
+    "tcgplayerPurchaseUrl": "https://mtgjson.com/links/9cd2620c391e89c7",
+    "text": "At the beginning of your end step, put a +1/+1 counter on target Beast creature you control.",
+    "toughness": "3",
+    "type": "Creature — Elf Shaman",
+    "types": [
+      "Creature"
+    ],
+    "uuid": "159338a3-f8b5-5258-9f40-a619c2c60447",
+    "uuidV421": "ff9f8ebf-75f3-5bc6-9bf5-691d236cbd46"
+  },
+  "Aegis Angel": {
+    "colorIdentity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "convertedManaCost": 6.0,
+    "foreignData": [
+      {
+        "language": "German",
+        "name": "Behütender Engel",
+        "text": "Fliegend (Diese Kreatur kann außer von fliegenden Kreaturen und Kreaturen mit Reichweite nicht geblockt werden.)\nWenn der Behütende Engel ins Spiel kommt, erhält eine andere bleibende Karte deiner Wahl solange Unzerstörbarkeit, wie du den Behütenden Engel kontrollierst. (Effekte, die „zerstören\", zerstören sie nicht. Eine Kreatur mit Unzerstörbarkeit kann nicht von Schaden zerstört werden.)",
+        "type": "Kreatur — Engel"
+      },
+      {
+        "language": "Spanish",
+        "name": "Ángel de la égida",
+        "text": "Vuela. (Esta criatura no puede ser bloqueada excepto por criaturas que tengan la habilidad de volar o alcance.)\nCuando el Ángel de la égida entre al campo de batalla, otro permanente objetivo gana la habilidad de indestructible mientras controles el Ángel de la égida. (Los efectos que dicen \"destruye\" no lo destruyen. Una criatura con la habilidad de indestructible no puede ser destruida por daño.)",
+        "type": "Criatura — Ángel"
+      },
+      {
+        "language": "French",
+        "name": "Ange de l'égide",
+        "text": "Vol (Cette créature ne peut pas être bloquée excepté par des créatures avec le vol ou la portée.)\nQuand l'Ange de l'égide arrive sur le champ de bataille, un autre permanent ciblé acquiert l'indestructible tant que vous contrôlez l'Ange de l'égide. (Les effets qui disent « détruisez » ne détruisent pas ce permanent. Une créature avec l'indestructible ne peut pas être détruite par des blessures.)",
+        "type": "Créature : ange"
+      },
+      {
+        "language": "Italian",
+        "name": "Angelo dell'Egida",
+        "text": "Volare (Questa creatura non può essere bloccata tranne che da creature con volare o raggiungere.)\nQuando l'Angelo dell'Egida entra nel campo di battaglia, un altro permanente bersaglio ha indistruttibile fintanto che controlli l'Angelo dell'Egida. (Gli effetti che dicono \"distruggi\" non lo distruggono. Una creatura con indistruttibile non può essere distrutta dal danno.)",
+        "type": "Creatura — Angelo"
+      },
+      {
+        "language": "Japanese",
+        "name": "神盾の天使",
+        "text": "飛行（このクリーチャーは飛行や到達を持たないクリーチャーによってはブロックされない。）\n神盾の天使が戦場に出たとき、他のパーマネント１つを対象とする。あなたが神盾の天使をコントロールし続けているかぎり、それは破壊不能を得る。（「破壊する」と書かれた効果では、それは破壊されない。破壊不能を持つクリーチャーはダメージによって破壊されない。）",
+        "type": "クリーチャー — 天使"
+      },
+      {
+        "language": "Korean",
+        "name": "보호의 천사",
+        "text": "비행 (이 생물은 비행이나 대공을 가진 생물에게만 방어될 수 있다.)\n보호의 천사가 전장에 들어올 때, 다른 지속물을 목표로 정한다. 그 지속물은 당신이 보호의 천사를 조종하는 한 무적을 얻는다. (\"파괴\"라고 명시된 효과로 파괴되지 않는다. 무적을 가진 생물은 피해로 파괴될 수 없다.)",
+        "type": "생물 — 천사"
+      },
+      {
+        "language": "Portuguese (Brazil)",
+        "name": "Anjo da Égide",
+        "text": "Voar (Esta criatura só pode ser bloqueada por criaturas com voar ou alcance.)\nQuando Anjo da Égide entrar no campo de batalha, outra permanente alvo ganhará indestrutível enquanto você controlar Anjo da Égide. (Os efeitos que dizem \"destrua\" não a destroem. Uma criatura com indestrutível não pode ser destruída por dano.)",
+        "type": "Criatura — Anjo"
+      },
+      {
+        "language": "Russian",
+        "name": "Ангел Эгиды",
+        "text": "Полет (Это существо может быть заблокировано только существами с Полетом или Захватом.)\nКогда Ангел Эгиды выходит на поле битвы, другой целевой перманент получает Неразрушимость, пока вы контролируете Ангела Эгиды. (Эффекты с указанием «уничтожьте» не уничтожают его. Существо с Неразрушимостью нельзя уничтожить повреждениями.)",
+        "type": "Существо — Ангел"
+      },
+      {
+        "language": "Chinese Simplified",
+        "name": "庇护天使",
+        "text": "飞行（此生物只能被具飞行或延势异能的生物阻挡。）\n当庇护天使进战场时，于你操控庇护天使的时段内，另一个目标永久物获得不灭异能。（注明「消灭」的效应不会消灭它。伤害无法消灭具不灭异能的生物。）",
+        "type": "生物～天使"
+      },
+      {
+        "language": "Chinese Traditional",
+        "name": "庇護天使",
+        "text": "飛行（此生物只能被具飛行或延勢異能的生物阻擋。）\n當庇護天使進戰場時，於你操控庇護天使的時段內，另一個目標永久物獲得不滅異能。（註明「消滅」的效應不會消滅它。傷害無法消滅具不滅異能的生物。）",
+        "type": "生物～天使"
+      }
+    ],
+    "layout": "normal",
+    "legalities": {
+      "commander": "Legal",
+      "duel": "Legal",
+      "frontier": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "penny": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{4}{W}{W}",
+    "name": "Aegis Angel",
+    "power": "5",
+    "printings": [
+      "E01",
+      "M12",
+      "M15",
+      "ORI",
+      "W16"
+    ],
+    "rulings": [
+      {
+        "date": "2011-09-22",
+        "text": "If Aegis Angel leaves the battlefield, you no longer control it."
+      },
+      {
+        "date": "2011-09-22",
+        "text": "If Aegis Angel and the permanent would be destroyed simultaneously, only Aegis Angel will be destroyed."
+      },
+      {
+        "date": "2013-07-01",
+        "text": "If another player gains control of Aegis Angel, the permanent will no longer have indestructible, even if you regain control of Aegis Angel."
+      }
+    ],
+    "scryfallIllustrationId": "3d5ea1a7-2cbf-4066-bc73-1441bcfa86f9",
+    "scryfallOracleId": "5902e074-7154-4fc7-8776-b87e8b1925e7",
+    "subtypes": [
+      "Angel"
+    ],
+    "supertypes": [],
+    "tcgplayerProductId": 116780,
+    "tcgplayerPurchaseUrl": "https://mtgjson.com/links/1c940e3e3ed81fce",
+    "text": "Flying (This creature can't be blocked except by creatures with flying or reach.)\nWhen Aegis Angel enters the battlefield, another target permanent gains indestructible for as long as you control Aegis Angel. (Effects that say \"destroy\" don't destroy it. A creature with indestructible can't be destroyed by damage.)",
+    "toughness": "5",
+    "type": "Creature — Angel",
+    "types": [
+      "Creature"
+    ],
+    "uuid": "73acf3d6-74b0-5fb8-a442-8a9c08fb5fce",
+    "uuidV421": "47bb6864-5848-55aa-9f48-3a85fb2330b1"
+  },
+  "Aegis Automaton": {
+    "colorIdentity": [
+      "W"
+    ],
+    "colors": [],
+    "convertedManaCost": 2.0,
+    "foreignData": [
+      {
+        "flavorText": "Die Straßen von Ghirapur sind ein gefährliches Pflaster geworden. Es ist gut, einen verlässlichen Begleiter zu haben.",
+        "language": "German",
+        "name": "Behütender Automat",
+        "text": "{4}{W}: Bringe eine andere Kreatur deiner Wahl, die du kontrollierst, auf die Hand ihres Besitzers zurück.",
+        "type": "Artefaktkreatur — Konstrukt"
+      },
+      {
+        "flavorText": "Las calles de Ghirapur son ahora peligrosas. Es bueno tener un compañero en el que confiar.",
+        "language": "Spanish",
+        "name": "Autómata de la égida",
+        "text": "{4}{W}: Regresa otra criatura objetivo que controlas a la mano de su propietario.",
+        "type": "Criatura artefacto — Constructo"
+      },
+      {
+        "flavorText": "Les rues de Ghirapur sont devenues dangereuses. Mieux vaut avoir un compagnon sur lequel compter.",
+        "language": "French",
+        "name": "Automate de l'égide",
+        "text": "{4}{W} : Renvoyez une autre créature ciblée que vous contrôlez dans la main de son propriétaire.",
+        "type": "Créature-artefact : construction"
+      },
+      {
+        "flavorText": "Le strade di Ghirapur sono diventate pericolose. È bello avere un compagno su cui contare.",
+        "language": "Italian",
+        "name": "Automa dell'Egida",
+        "text": "{4}{W}: Fai tornare un'altra creatura bersaglio che controlli in mano al suo proprietario.",
+        "type": "Creatura Artefatto — Costrutto"
+      },
+      {
+        "flavorText": "ギラプールの街路は物騒になってしまった。頼れる仲間との同行が望ましい。",
+        "language": "Japanese",
+        "name": "神盾自動機械",
+        "text": "{4}{W}：あなたがコントロールする他のクリーチャー１体を対象とし、それをオーナーの手札に戻す。",
+        "type": "アーティファクト・クリーチャー — 構築物"
+      },
+      {
+        "flavorText": "기라푸르의 거리가 위험해졌다. 믿을 만한 동료와 함께 있는 것이 좋다.",
+        "language": "Korean",
+        "name": "보호하는 자동장치",
+        "text": "{4}{W}: 당신이 조종하는 다른 생물을 목표로 정한다. 그 생물을 소유자의 손으로 되돌린다.",
+        "type": "마법물체 생물 — 자동기계"
+      },
+      {
+        "flavorText": "As ruas de Ghirapur tornaram-se perigosas. É bom ter uma companhia confiável.",
+        "language": "Portuguese (Brazil)",
+        "name": "Autômato da Égide",
+        "text": "{4}{W}: Devolva outra criatura alvo que você controla para a mão de seu dono.",
+        "type": "Criatura Artefato — Constructo"
+      },
+      {
+        "flavorText": "На улицах Гирапура стало небезопасно. Хорошо, когда есть надежный спутник.",
+        "language": "Russian",
+        "name": "Защитный Автомат",
+        "text": "{4}{W}: верните другое целевое существо под вашим контролем в руку его владельца.",
+        "type": "Артефакт Существо — Конструкция"
+      },
+      {
+        "flavorText": "吉拉波的街头变得越来越危险。最好跟值得信赖的朋友同行作伴。",
+        "language": "Chinese Simplified",
+        "name": "卫护机械兽",
+        "text": "{4}{W}：将另一个目标由你操控的生物移回其拥有者手上。",
+        "type": "神器生物～组构体"
+      },
+      {
+        "flavorText": "吉拉波的街頭變得越來越危險。最好跟值得信賴的朋友同行作伴。",
+        "language": "Chinese Traditional",
+        "name": "衛護機械獸",
+        "text": "{4}{W}：將另一個目標由你操控的生物移回其擁有者手上。",
+        "type": "神器生物～組構體"
+      }
+    ],
+    "layout": "normal",
+    "legalities": {
+      "commander": "Legal",
+      "duel": "Legal",
+      "frontier": "Legal",
+      "legacy": "Legal",
+      "modern": "Legal",
+      "pauper": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{2}",
+    "name": "Aegis Automaton",
+    "power": "0",
+    "printings": [
+      "AER"
+    ],
+    "rulings": [],
+    "scryfallIllustrationId": "d8894f4a-21ec-43f9-abfd-c16b3f4ecd85",
+    "scryfallOracleId": "727f4734-53cc-4279-ba51-dfa26c4ceb1d",
+    "subtypes": [
+      "Construct"
+    ],
+    "supertypes": [],
+    "tcgplayerProductId": 126339,
+    "tcgplayerPurchaseUrl": "https://mtgjson.com/links/ea2d2d2452ae349a",
+    "text": "{4}{W}: Return another target creature you control to its owner's hand.",
+    "toughness": "3",
+    "type": "Artifact Creature — Construct",
+    "types": [
+      "Artifact",
+      "Creature"
+    ],
+    "uuid": "c7d0e494-642e-5981-90ee-850e67dff7ad",
+    "uuidV421": "0da96a55-1b41-5a42-8528-88c0a024aed0"
+  },
+  "Aegis of Honor": {
+    "colorIdentity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "convertedManaCost": 1.0,
+    "foreignData": [
+      {
+        "language": "German",
+        "name": "Ägide der Ehre",
+        "text": "{1}: Das nächste Mal, sobald ein Spontanzauber oder eine Hexerei dir in diesem Zug Schaden zufügen würde, fügt der Zauberspruch diesen Schaden stattdessen seinem Beherrscher zu.",
+        "type": "Verzauberung"
+      },
+      {
+        "language": "Spanish",
+        "name": "Égida del honor",
+        "text": "{1}: La siguiente vez que un hechizo de instantáneo o de conjuro fuera a hacerte daño este turno, en vez de eso, ese hechizo hace ese daño a su controlador.",
+        "type": "Encantamiento"
+      },
+      {
+        "language": "French",
+        "name": "Égide de l'honneur",
+        "text": "{1}: La prochaine fois qu'un sort d'éphémère ou de rituel devrait vous infliger des blessures ce tour-ci, ce sort inflige ces blessures à son contrôleur à la place.",
+        "type": "Enchantement"
+      },
+      {
+        "language": "Italian",
+        "name": "Egida dell'Onore",
+        "text": "{1}: La prossima volta che una magia istantaneo o stregoneria ti infligge del danno in questo turno, quella magia infligge invece quel danno al proprio controllore.",
+        "type": "Incantesimo"
+      },
+      {
+        "language": "Portuguese (Brazil)",
+        "name": "Égide de Honra",
+        "text": "{1}: Na próxima vez que uma mágica instantânea ou um feitiço fosse causar dano a você neste turno, aquela mágica causa, ao invés disso, aquela quantidade de dano ao seu controlador.",
+        "type": "Encantamento"
+      }
+    ],
+    "layout": "normal",
+    "legalities": {
+      "commander": "Legal",
+      "duel": "Legal",
+      "legacy": "Legal",
+      "vintage": "Legal"
+    },
+    "manaCost": "{W}",
+    "name": "Aegis of Honor",
+    "printings": [
+      "ODY"
+    ],
+    "rulings": [],
+    "scryfallIllustrationId": "331a0b0f-489f-4a7d-be05-88427745b42d",
+    "scryfallOracleId": "ea93acc8-0c1f-42a2-bed3-f385d210d58f",
+    "subtypes": [],
+    "supertypes": [],
+    "tcgplayerProductId": 9276,
+    "tcgplayerPurchaseUrl": "https://mtgjson.com/links/1f497cde557cd1f9",
+    "text": "{1}: The next time an instant or sorcery spell would deal damage to you this turn, that spell deals that damage to its controller instead.",
+    "type": "Enchantment",
+    "types": [
+      "Enchantment"
+    ],
+    "uuid": "7519304d-08f5-53c5-afa8-e74c0184dcbf",
+    "uuidV421": "2a90320e-87e2-53c0-8ed6-21caab82c6f7"
+  }
+}
