@@ -1,69 +1,61 @@
-#![feature(proc_macro_hygiene, decl_macro, const_vec_new)]
+#![feature(proc_macro_hygiene, decl_macro, const_vec_new, mpsc_select)]
 #[macro_use]
 extern crate rocket;
-extern crate strsim;
-extern crate reqwest;
-extern crate zip;
 
 mod mtg_data;
+mod json_storage;
 
-use std::fs::File;
-use std::io::Read;
 use std::path::Path;
-use std::collections::HashMap;
 use rocket::response::content;
 use rocket::http::RawStr;
 use rocket::http::uri::Uri;
-use serde_json::Value;
-use strsim::normalized_levenshtein;
 
-static mut CARD_NAMES: Vec<String> = Vec::new();
+use std::sync::mpsc::channel;
+use std::{thread, fs};
+use std::time::Duration;
 
-fn parse_data() {
-    let mut file = File::open("AllCards.json").expect("Error while opening");
-    let mut data = String::new();
-    file.read_to_string(&mut data).expect("Error while parsing");
+static MTG_JSON_URL: &str = "https://mtgjson.com/json/AllCards.json";
+static JSON_FILENAME: &str = "AllCards.json";
 
-    let cards: HashMap<String, HashMap<String, Value>> = serde_json::from_str(&data).expect("Error while serializing");
+fn refresh_json_storage(mtg_json_url: &str, json_filename: &str) {
+    println!("\u{1F4BE} Clearing old data");
 
-    for (card_name, _value) in cards.iter() {
-        unsafe {
-            let decoded_card_name = Uri::percent_decode(card_name.as_bytes()).expect("Error while decoding");
-            CARD_NAMES.push(decoded_card_name.to_string());
-        }
+    if Path::new(json_filename).exists() == true {
+        fs::remove_file(json_filename).expect("Error while removing the file");
     }
-}
 
-fn get_card_name_by_query(query_card_name: String) -> String {
-    unsafe {
-        let mut highest_leven: f64 = 0.0;
-        let mut highest_leven_card_name: String = String::from("");
-
-        for card_name in CARD_NAMES.iter() {
-            let leven_score = normalized_levenshtein(card_name, query_card_name.as_str());
-            if highest_leven < leven_score {
-                highest_leven = leven_score;
-                highest_leven_card_name = card_name.clone();
-            }
-        }
-        return highest_leven_card_name;
-    }
+    mtg_data::download_file(mtg_json_url, json_filename);
+    json_storage::set_data(mtg_data::read_json(json_filename));
 }
 
 fn main() {
-    if Path::new("AllCards.json.zip").exists() == false {
-        mtg_data::download_file("https://mtgjson.com/json/AllCards.json.zip", "AllCards.json.zip");
-        mtg_data::unzip_file("AllCards.json.zip")
+    let (send, recv) = channel();
+
+    thread::spawn(move || {
+        loop {
+            thread::sleep(Duration::from_secs(21600));
+            send.send("\u{1F4BE} Starting to update json_storage data").unwrap();
+        }
+    });
+
+    thread::spawn(move || {
+        loop {
+            println!("{}", recv.recv().unwrap());
+            refresh_json_storage(MTG_JSON_URL, JSON_FILENAME);
+        }
+    });
+
+    if Path::new(JSON_FILENAME).exists() == true {
+        json_storage::set_data(mtg_data::read_json(JSON_FILENAME));
+    } else {
+        refresh_json_storage(MTG_JSON_URL, JSON_FILENAME);
     }
 
-    println!("{} {}", "\u{1F4BE}", "Parsing data");
-    parse_data();
-    println!("{} {}", "\u{2728}", "Data parsed!");
 
     #[get("/?<card_name>")]
     fn json(card_name: &RawStr) -> content::Json<String> {
         let decoded_card_name = Uri::percent_decode(card_name.as_bytes()).expect("decoded");
-        return content::Json(get_card_name_by_query(decoded_card_name.to_string()));
+        return content::Json(json_storage::get_card_name_by_query(decoded_card_name.to_string()));
     }
 
     rocket::ignite().mount("/", routes![json]).launch();
