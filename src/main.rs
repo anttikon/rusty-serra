@@ -1,6 +1,8 @@
 #![feature(proc_macro_hygiene, decl_macro, const_vec_new, mpsc_select)]
 #[macro_use]
 extern crate rocket;
+#[macro_use]
+extern crate lazy_static;
 
 mod mtg_data;
 mod json_storage;
