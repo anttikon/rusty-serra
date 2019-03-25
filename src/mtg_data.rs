@@ -1,14 +1,19 @@
 extern crate reqwest;
 
-use std::fs::{File};
+use std::fs::File;
 use std::io::{Read, Error, copy};
 use std::collections::HashMap;
-use serde_json::Value;
 
 fn create_file(filename: &str) -> Result<File, Error> {
     return {
         File::create(filename)
     };
+}
+
+#[derive(Serialize, Deserialize, Debug, Clone)]
+pub struct Card {
+    pub colors: Vec<String>,
+    pub name: String,
 }
 
 pub fn download_file(url: &str, filename: &str) {
@@ -31,10 +36,10 @@ pub fn download_file(url: &str, filename: &str) {
     };
 }
 
-pub fn read_json(filename: &str) -> HashMap<String, HashMap<String, Value>> {
+pub fn read_json(filename: &str) -> HashMap<String, Card> {
     let mut file = File::open(filename).expect("Error while opening");
     let mut data = String::new();
     file.read_to_string(&mut data).expect("Error while parsing");
 
-    return serde_json::from_str(&data).expect("Error while serializing");
+    return serde_json::from_str::<HashMap<String, Card>>(&data).unwrap();
 }

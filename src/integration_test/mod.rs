@@ -9,5 +9,5 @@ fn levenshtein_match() {
     let client = Client::new(rocket(JSON_URL, JSON_FILENAME)).expect("valid rocket instance");
     let mut response = client.get("/?card_name=darkar%20corn").dispatch();
     assert_eq!(response.status(), Status::Ok);
-    assert_eq!(response.body_string(), Some("Adarkar Unicorn".into()));
+    assert_eq!(response.body_string(), Some("{\"colors\":[\"W\"],\"name\":\"Adarkar Unicorn\"}".into()));
 }

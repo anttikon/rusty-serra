@@ -3,19 +3,22 @@
 extern crate rocket;
 #[macro_use]
 extern crate lazy_static;
-
-mod mtg_data;
-mod json_storage;
+#[macro_use]
+extern crate serde_derive;
+extern crate serde;
 
 use std::path::Path;
-use rocket::response::content;
-use rocket::http::RawStr;
-use rocket::http::uri::Uri;
-
 use std::sync::mpsc::channel;
 use std::{thread, fs};
 use std::time::Duration;
+use rocket::http::RawStr;
+use rocket::http::uri::Uri;
 use rocket::Rocket;
+use rocket_contrib::json::Json;
+use crate::mtg_data::Card;
+
+mod json_storage;
+mod mtg_data;
 
 fn refresh_json_storage(json_url: &str, json_filename: &str) {
     println!("\u{1F4BE} Clearing old data");
@@ -29,9 +32,9 @@ fn refresh_json_storage(json_url: &str, json_filename: &str) {
 }
 
 #[get("/?<card_name>")]
-fn json(card_name: &RawStr) -> content::Json<String> {
+fn json(card_name: &RawStr) -> Json<Option<Card>> {
     let decoded_card_name = Uri::percent_decode(card_name.as_bytes()).expect("decoded");
-    return content::Json(json_storage::get_card_name_by_query(decoded_card_name.to_string()));
+    Json(json_storage::get_card_name_by_query(decoded_card_name.to_string()))
 }
 
 fn rocket(json_url: &str, json_filename: &str) -> Rocket {
