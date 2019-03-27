@@ -2,7 +2,6 @@ extern crate rocket;
 extern crate strsim;
 
 use std::collections::HashMap;
-use rocket::http::uri::Uri;
 use strsim::normalized_levenshtein;
 use std::sync::RwLock;
 use crate::mtg_data::Card;
@@ -11,18 +10,17 @@ lazy_static! {
     static ref CARDS: RwLock<Vec<Card>> = RwLock::new(vec![]);
 }
 
-fn cards_includes(decoded_card_name: String) -> bool {
-    return CARDS.read().unwrap().iter().find(|&x| x.name == decoded_card_name).is_some();
+fn get_hashmap_values<T>(hashmap: HashMap<String, T>) -> Vec<T> where T: Clone {
+    let mut vector: Vec<T> = vec![];
+    for value in hashmap.values() {
+        vector.push(value.clone())
+    }
+    vector
 }
 
 pub fn set_data(cards: HashMap<String, Card>) {
     println!("{} {}", "\u{1F4BE}", "Parsing data");
-    for (card_name, value) in cards.iter() {
-        let decoded_card_name = Uri::percent_decode(card_name.as_bytes()).unwrap();
-        if cards_includes(decoded_card_name.to_string()) == false {
-            CARDS.write().unwrap().push(value.clone());
-        }
-    }
+    CARDS.write().unwrap().clone_from(&get_hashmap_values(cards));
     println!("{} {}", "\u{2728}", "Data parsed!");
 }
 
